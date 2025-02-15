@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "fb07d73a83279c36",
@@ -177,9 +178,12 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
+    "Sin título.md",
+    "Cybersecurity/Gobuster.md",
+    "Sin título 2.canvas",
+    "Sin título 1.canvas",
     "Cybersecurity/Nmap.md",
     "Cybersecurity/Sqlmap.md",
-    "Cybersecurity/Gobuster.md",
     "Bash/Comandos.md",
     "SQL/Procedimientos almacenados.md",
     "SQL/PLSQL.md",
