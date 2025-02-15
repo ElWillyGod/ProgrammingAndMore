@@ -161,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,24 +178,24 @@
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
     "Cybersecurity/Nmap.md",
-    "Cybersecurity/Gobuster.md",
     "Cybersecurity/Sqlmap.md",
-    "Automatización de Backus.md",
+    "Cybersecurity/Gobuster.md",
     "Bash/Comandos.md",
     "SQL/Procedimientos almacenados.md",
     "SQL/PLSQL.md",
     "Kotlin/Kotlin.md",
     "Docker/Docker.md",
+    "Git/Certificado GIT.md",
+    "Git/Pasted image 20231127235238.png",
+    "Sin título.canvas",
+    "Automatización de Backus.md",
     "conflict-files-obsidian-git.md",
     "Cybersecurity/Reconocimiento Pasivo.md",
     "Cybersecurity",
     "Willinn-Backend.md",
-    "Git/Certificado GIT.md",
     "Docker/Sin título.md",
-    "Sin título.canvas",
     "2024-10-24.md",
     "Kotlin",
-    "Git/Pasted image 20231127235238.png",
     "SQL",
     "Docker",
     "HBTN/Sin título.md",
