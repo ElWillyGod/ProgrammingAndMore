@@ -1,4 +1,4 @@
-Gobuster es una herramienta de fuerza bruta que sirve para la enumeración de directorios ocultos, subdominios, ataques de fuerza bruta contra credenciales en formularios http, búsqueda de archivos en servidores web con extensiones especificas y enumeración de claves en servicios como Amazon S3. Entre sus puntos destacables esta su rapidez ya que se basa en Go, un lenguaje de programación desarrollado por Google orientado al desarrollo de aplicaciones, sistemas y servicios web, esto convierte a Gobuster en una herramienta eficiente para el manejo de concurrencia y ataques de fuerza bruta.
+=Gobuster es una herramienta de fuerza bruta que sirve para la enumeración de directorios ocultos, subdominios, ataques de fuerza bruta contra credenciales en formularios http, búsqueda de archivos en servidores web con extensiones especificas y enumeración de claves en servicios como Amazon S3. Entre sus puntos destacables esta su rapidez ya que se basa en Go, un lenguaje de programación desarrollado por Google orientado al desarrollo de aplicaciones, sistemas y servicios web, esto convierte a Gobuster en una herramienta eficiente para el manejo de concurrencia y ataques de fuerza bruta.
 
 ## Modos de operación
 
@@ -14,4 +14,14 @@ gobuster dir -u http://example.com -w /usr/share/wordlists/dirb/common.txt
 ```
 
 Este comando mostraría los directorios y archivos que coincidan con los nombre que contiene `common.txt`
-En el ejemplo anterior se utilizaron dos opciones, `-u` para señalar la URL objetivo y `-w` para el diccionario de palabras a buscar, podemos especificar 
+En el ejemplo anterior se utilizaron dos opciones, `-u` para señalar la URL objetivo y `-w` para el diccionario de palabras a buscar, podemos especificar el tipo de archivo que estamos buscando con la opción `-x`, también se puede especificar la cantidad de hilos que se utilizan en la búsqueda con el parámetro `-t`, los hilos permiten realizar múltiples solicitudes simultáneamente, lo que acelera significativamente el proceso de enumeración aunque representa una mayor carga en la red y en el servidor objetivo.
+
+Ejemplo.
+```bash
+gobuster dir -u http://example.com -w /usr/share/wordlists/dirb/common.txt -x php,html -t 100
+```
+
+
+### Enumeración de Subdominios
+
+Esta opción se encarga de la búsqueda de subdominios de un dominio especifico.
