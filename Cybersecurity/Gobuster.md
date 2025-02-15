@@ -1,4 +1,4 @@
-Gobuster es una herramienta de fuerza bruta que sirve para la enumeración de directorios ocultos, subdominios, ataques de fuerza bruta contra credenciales en formularios http, búsqueda de archivos en servidores web con extensiones especificas y enumeración de claves en servicios como Amazon S3. Entre sus puntos destacables esta su rapidez ya que se basa en Go, un lenguaje de programación desarrollado por Google orientado al desarrollo de aplicaciones, sistemas y servicios web, esto convierte a Gobuster en una herramienta eficiente para el manejo de concurrencia y ataques de fuerza bruta.
+Gobuster es una herramienta de fuerza bruta que sirve para la enumeración de directorios ocultos, subdominios, búsqueda de archivos en servidores web con extensiones especificas y enumeración de claves en servicios como Amazon S3. Entre sus puntos destacables esta su rapidez ya que se basa en Go, un lenguaje de programación desarrollado por Google orientado al desarrollo de aplicaciones, sistemas y servicios web, esto lo hace eficiente en el manejo de concurrencia y velocidad en ataques de fuerza bruta.
 
 ## Modos de operación
 
@@ -31,4 +31,16 @@ Ejemplo.
 gobuster dns -d example.com -w subdomains.txt
 ```
 
-Desglosando el ejemplo anterior no encontramos 
+Desglosando el ejemplo anterior no encontramos con el parámetro `-d` para especificar el dominio objetivo y el parámetro `-w` para el diccionario de palabras a buscar como subdominio. Este modo también soporta la opción `-t` para ajustar el numero de hilos a utilizar.
+
+
+### Enumeración de host virtuales
+
+Este modo sirve para identificar subdominios en un servidor web configurados s nivel de host virtuales, esto es especialmente útil para la búsqueda de aplicaciones internas en servidores compartidos.
+
+Ejemplo.
+```bash
+gobuster vhost -u http://example.com -w vhosts.txt
+```
+
+Como se puede apreciar en el ejemplo funciona de la misma manera que la 
