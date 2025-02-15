@@ -1,1 +1,17 @@
 Gobuster es una herramienta de fuerza bruta que sirve para la enumeración de directorios ocultos, subdominios, ataques de fuerza bruta contra credenciales en formularios http, búsqueda de archivos en servidores web con extensiones especificas y enumeración de claves en servicios como Amazon S3. Entre sus puntos destacables esta su rapidez ya que se basa en Go, un lenguaje de programación desarrollado por Google orientado al desarrollo de aplicaciones, sistemas y servicios web, esto convierte a Gobuster en una herramienta eficiente para el manejo de concurrencia y ataques de fuerza bruta.
+
+## Modos de operación
+
+Gobuster cuenta con siete modos.
+
+### Enumeración de directorios
+
+El modo `dir` sirve para buscar directorios y archivos ocultos en un servidor web.
+
+Ejemplo de uso básico.
+```bash
+gobuster dir -u http://example.com -w /usr/share/wordlists/dirb/common.txt
+```
+
+Este comando mostraría los directorios y archivos que coincidan con los nombre que contiene `common.txt`
+En el ejemplo anterior se utilizaron dos opciones, `-u` para señalar la URL objetivo y `-w` para el diccionario de palabras a buscar, podemos espesificar 
