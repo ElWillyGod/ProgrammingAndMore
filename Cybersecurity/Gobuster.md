@@ -14,4 +14,4 @@ gobuster dir -u http://example.com -w /usr/share/wordlists/dirb/common.txt
 ```
 
 Este comando mostraría los directorios y archivos que coincidan con los nombre que contiene `common.txt`
-En el ejemplo anterior se utilizaron dos opciones, `-u` para señalar la URL objetivo y `-w` para el diccionario de palabras a buscar, podemos espesificar 
+En el ejemplo anterior se utilizaron dos opciones, `-u` para señalar la URL objetivo y `-w` para el diccionario de palabras a buscar, podemos especificar 
