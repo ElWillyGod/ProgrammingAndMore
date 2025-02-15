@@ -1,4 +1,4 @@
-Gobuster es una herramienta de fuerza bruta que sirve para la enumeración de directorios ocultos, subdominios, búsqueda de archivos en servidores web con extensiones especificas y enumeración de claves en servicios como Amazon S3. Entre sus puntos destacables esta su rapidez ya que se basa en Go, un lenguaje de programación desarrollado por Google orientado al desarrollo de aplicaciones, sistemas y servicios web, esto lo hace eficiente en el manejo de concurrencia y velocidad en ataques de fuerza bruta.
+Gobuster es una herramienta de fuerza bruta que sirve para la enumeración de directorios ocultos, subdominios, búsqueda de archivos en servidores web con extensiones especificas y enumeración de bucket en servicios como Amazon S3. Entre sus puntos destacables esta su rapidez ya que se basa en Go, un lenguaje de programación desarrollado por Google orientado al desarrollo de aplicaciones, sistemas y servicios web, esto lo hace eficiente en el manejo de concurrencia y velocidad en ataques de fuerza bruta.
 
 ## Modos de operación
 
@@ -44,3 +44,15 @@ gobuster vhost -u http://example.com -w vhosts.txt
 ```
 
 Como se puede apreciar en el ejemplo funciona de la misma manera que la [[#Enumeración de directorios]], contamos con el parámetro `-u` para introducir la URL objetivo y el parámetro `-w` para el diccionario de palabras.
+
+
+### Enumeración de buckets de Amazon S3
+
+ El modo `s3` realiza ataques de fuerza bruta utilizando una lista de palabras para intentar descubrir nombres de buckets para determinar si son accesibles o no.
+
+Ejemplo.
+```bash
+gobuster s3 -b examplebucket -w wordlist.txt
+```
+
+Como se puede ver en el ejemplo anterior, el parámetro `-b` especifica el nombre base del bucket que quieres enumerar, con el parametro `-w` 
