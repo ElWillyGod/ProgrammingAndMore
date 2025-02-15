@@ -43,4 +43,4 @@ Ejemplo.
 gobuster vhost -u http://example.com -w vhosts.txt
 ```
 
-Como se puede apreciar en el ejemplo funciona de la misma manera que la 
+Como se puede apreciar en el ejemplo funciona de la misma manera que la [[#Enumeración de directorios]], contamos con el parámetro `-u` para introducir la URL objetivo y el parámetro `-w` para el diccionario de palabras.
