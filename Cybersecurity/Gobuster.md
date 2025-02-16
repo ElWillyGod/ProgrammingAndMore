@@ -61,4 +61,4 @@ Como se puede ver en el ejemplo anterior, el parámetro `-b` especifica el nombr
 ## Resumen
 
 Gobuster sirve reconocimiento activo esto implica interactuar directamente con el objetivo y correr el riesgo de ser detectado.
-Este fue un breve vistazo de la herramienta, la misma cuanta con mas funcionalidades como la enumeración de buckets de google cloud, la búsqueda de archivos TFTP y Fuzzing en URls  y parámetros, también las opciones tratadas en este resumen cuentan con mas parámetros
+Este fue un breve vistazo de la herramienta, la misma cuanta con mas funcionalidades como la enumeración de buckets de google cloud, la búsqueda de archivos TFTP y Fuzzing en URls  y parámetros, también las opciones tratadas en este resumen cuentan con mas parámetros, si quieres aprender mas o ver las funcionalidades completas te recomiendo que pases por el repositorio oficial [Gobuster](https://github.com/OJ/gobuster/blob/master/README.md) 
