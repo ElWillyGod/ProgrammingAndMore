@@ -1,4 +1,4 @@
-
+# Nmap
 
 La herramienta nmap se utiliza para el mapeo de los puertos correspondientes a una red o servidor, brindando información sobre los puertos abiertos, servicios que se encuentran corriendo en los mismos y dispositivos conectados.
 Esta herramienta tiene muchas funcionalidades ya sea para un escaneo sigiloso o agresivo. 

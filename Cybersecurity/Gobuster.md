@@ -1,3 +1,5 @@
+# Gobuster
+
 Gobuster es una herramienta de fuerza bruta que sirve para la enumeración de directorios ocultos, subdominios, búsqueda de archivos en servidores web con extensiones especificas y enumeración de bucket en servicios como Amazon S3. Entre sus puntos destacables esta su rapidez ya que se basa en Go, un lenguaje de programación desarrollado por Google orientado al desarrollo de aplicaciones, sistemas y servicios web, esto lo hace eficiente en el manejo de concurrencia y velocidad en ataques de fuerza bruta.
 
 ## Modos de operación
