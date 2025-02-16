@@ -55,4 +55,10 @@ Ejemplo.
 gobuster s3 -b examplebucket -w wordlist.txt
 ```
 
-Como se puede ver en el ejemplo anterior, el parámetro `-b` especifica el nombre base del bucket que quieres enumerar, con el parametro `-w` 
+Como se puede ver en el ejemplo anterior, el parámetro `-b` especifica el nombre base del bucket que quieres enumerar, con el parámetro `-w` indicamos el diccionario de nombres de bucket con el que Gobuster va a iterar.
+
+
+## Resumen
+
+Gobuster sirve reconocimiento activo esto implica interactuar directamente con el objetivo y correr el riesgo de ser detectado.
+Este fue un breve vistazo de la herramienta, la misma cuanta con mas funcionalidades como la enumeración de buckets de google cloud, la búsqueda de archivos TFTP y Fuzzing en URls  y parámetros, también las opciones tratadas en este resumen cuentan con mas parámetros
