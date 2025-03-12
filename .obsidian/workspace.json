@@ -11,14 +11,17 @@
             "id": "0d95e5b7aa4db61f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Cybersecurity/Sqlmap.md",
-                "mode": "source",
-                "source": false
+                "file": "Sin título.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Sqlmap"
+              "icon": "lucide-layout-dashboard",
+              "title": "Sin título"
             }
           }
         ]
@@ -177,8 +180,9 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "Cybersecurity/Nmap.md",
     "Cybersecurity/Sqlmap.md",
+    "Sin título.canvas",
+    "Cybersecurity/Nmap.md",
     "Cybersecurity/Gobuster.md",
     "Kotlin/Kotlin.md",
     "Git/Certificado GIT.md",
@@ -186,7 +190,6 @@
     "SQL/Procedimientos almacenados.md",
     "Automatización de Backus.md",
     "Sin título.md",
-    "Sin título.canvas",
     "Sin título 1.canvas",
     "Sin título 2.canvas",
     "Bash/Comandos.md",
