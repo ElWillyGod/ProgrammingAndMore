@@ -23,8 +23,21 @@
               "icon": "lucide-layout-dashboard",
               "title": "Sin título"
             }
+          },
+          {
+            "id": "6cc0c390383f6900",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d95e5b7aa4db61f",
+  "active": "6cc0c390383f6900",
   "lastOpenFiles": [
     "Cybersecurity/Sqlmap.md",
     "Sin título.canvas",
