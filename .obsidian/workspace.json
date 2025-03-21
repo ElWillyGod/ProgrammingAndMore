@@ -11,33 +11,17 @@
             "id": "0d95e5b7aa4db61f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Sin título.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Cybersecurity/Gobuster.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sin título"
-            }
-          },
-          {
-            "id": "6cc0c390383f6900",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "Gobuster"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "fb07d73a83279c36",
@@ -191,19 +174,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6cc0c390383f6900",
+  "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "Cybersecurity/Sqlmap.md",
-    "Sin título.canvas",
-    "Cybersecurity/Nmap.md",
-    "Cybersecurity/Gobuster.md",
+    "Automatización de Backus.md",
     "Kotlin/Kotlin.md",
+    "Cybersecurity/Sqlmap.md",
+    "Cybersecurity/Nmap.md",
+    "Sin título 1.canvas",
+    "Sin título.canvas",
+    "Cybersecurity/Gobuster.md",
     "Git/Certificado GIT.md",
     "SQL/PLSQL.md",
     "SQL/Procedimientos almacenados.md",
-    "Automatización de Backus.md",
     "Sin título.md",
-    "Sin título 1.canvas",
     "Sin título 2.canvas",
     "Bash/Comandos.md",
     "Docker/Docker.md",
