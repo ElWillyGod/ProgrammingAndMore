@@ -24,7 +24,7 @@ nmap -sV example.com
 Esto puede ser muy útil ya que puedes buscar una vulnerabilidad existentes en la base de datos de CVE para una versión en especifico, debes tener en cuenta que estos escaneos no son totalmente precisos pero te pueden dar una idea bastante acertada. Este comando también te brindara información sobre los posibles sistemas operativos que tenga el host, aunque si solo te interesa esta información puedes realizar el siguiente comando.
 
 ```bash
-nmap -o example.com
+nmap -O example.com
 ```
 
 ## Escaneo Agresivo
