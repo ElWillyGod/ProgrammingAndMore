@@ -41,7 +41,7 @@ namp -A example.com
 Se puede utilizar nmap para el escaneo escaneo de la red, para esto se puede hacer un escaneo de los host activos con el siguiente comando
 
 ```bash
-nmap -sn 10.0.0.0/24
+nmap -sN 10.0.0.0/24
 ```
 
 Como se aprecia en el ejemplo anterior, para esto se necesita la ip de a red y su mascara.
