@@ -22,4 +22,8 @@ En este rango se puede encontrar un XSS (Cross site Scripting) que requiere que 
 
 ### Alto (CVSS 7.0 – 8.9)
 
-Este tipo de vulnerabilidades permite escalar privilegios local en un servidor, para estas vul
+Este tipo de vulnerabilidades permite escalar privilegios local en un servidor, representa una riesgo alto para los servidores  y se necesario aplicar un parche lo antes posible y a que pude ser una falla en el kernel de linux que permite a un usuario normal obtener acceso a root.
+
+### Crítico (CVSS 9.0 – 10.0)
+
+Estas vulnerabilidades tienen que ser solucionadas de forma urgente ya que permiten la ejecución de código de forma remota sin autentificación (RCE) para mitigar este tipo de vulnerabilidades es normal que se asilen nodos de los sistemas principales y se establezcan bloqueos de rede de forma temporal, un ejemplo real es `CVE-2021-44228` (Log4Shell) que permitía la ejecución remota de código en servidores Java expuestos.
