@@ -27,3 +27,7 @@ Este tipo de vulnerabilidades permite escalar privilegios local en un servidor, 
 ### Crítico (CVSS 9.0 – 10.0)
 
 Estas vulnerabilidades tienen que ser solucionadas de forma urgente ya que permiten la ejecución de código de forma remota sin autentificación (RCE) para mitigar este tipo de vulnerabilidades es normal que se asilen nodos de los sistemas principales y se establezcan bloqueos de rede de forma temporal, un ejemplo real es `CVE-2021-44228` (Log4Shell) que permitía la ejecución remota de código en servidores Java expuestos.
+
+## CVE IDs
+
+Para asignar los IDs quien descubre la vulnerabilidad debe solicitar una clave a través de CNA (CVE Numbering Authority) o en el programa central de CVE, se evalúa la solicitud y se le asigna un ID único para esa vulnerabilidad posteriormente ya 
