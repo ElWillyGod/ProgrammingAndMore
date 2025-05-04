@@ -30,4 +30,6 @@ Estas vulnerabilidades tienen que ser solucionadas de forma urgente ya que permi
 
 ## CVE IDs
 
-Para asignar los IDs quien descubre la vulnerabilidad debe solicitar una clave a través de CNA (CVE Numbering Authority) o en el programa central de CVE, se evalúa la solicitud y se le asigna un ID único para esa vulnerabilidad posteriormente ya 
+Para asignar los IDs quien descubre la vulnerabilidad debe solicitar una clave a través de CNA (CVE Numbering Authority) o en el programa central de CVE, se evalúa la solicitud y se le asigna un ID único para esa vulnerabilidad posteriormente se puede publicar (en el CVE List) o revisarse hasta que se tenga un parche.
+
+La CVE List es la lista de la vulnerabilidades registradas, esta lista es gestionada por  CNAs (CVE Numbering Authorities) organizaciones autorizadas por MITRE para evaluar informes , estas organizaciones pueden ser empresas de software (como Microsoft, Google, Oracle), proyectos de código abierto (como Apache, Kubernetes), equipos de respuesta ante incidentes (como CERTs) y proveedores de seguridad
