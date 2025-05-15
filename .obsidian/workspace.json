@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Nmap"
             }
-          },
-          {
-            "id": "c78ffc3dbe95b0e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cybersecurity/CVE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CVE"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "fb07d73a83279c36",
@@ -190,18 +174,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c78ffc3dbe95b0e3",
+  "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "Cybersecurity/Nmap.md",
-    "Cybersecurity/CVE.md",
     "Cybersecurity/Sqlmap.md",
+    "Cybersecurity/Nmap.md",
+    "Sin título 1.canvas",
+    "Sin título.canvas",
+    "Cybersecurity/CVE.md",
     "Kotlin/Kotlin.md",
     "Git/Certificado GIT.md",
     "Docker/Docker.md",
     "Cybersecurity/Gobuster.md",
     "Automatización de Backus.md",
-    "Sin título 1.canvas",
-    "Sin título.canvas",
     "SQL/PLSQL.md",
     "SQL/Procedimientos almacenados.md",
     "Sin título.md",
