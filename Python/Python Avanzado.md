@@ -85,4 +85,4 @@ print(fun1(uppercase))
 
 Este es otro ejemplo, la salida seria `HOLA`.
 
-Puedes ver las similitudes??, en esencia los decoradores son son funciones de orden mayor que toman como parámetro una función, la modifican y devuelven una nueva función que extiende o cambia su funcionamiento, recordemos también que las funciones son objetos de primera clase (en python todo son objetos igual) esto significa que se oueden t
+Puedes ver las similitudes??, en esencia los decoradores son son funciones de orden mayor que toman como parámetro una función, la modifican y devuelven una nueva función que extiende o cambia su funcionamiento, recordemos también que las funciones son objetos de primera clase (en python todo son objetos igual) esto significa que se pueden tratar como cualquier otro objeto, se le pueden asignar a variables y usarse como cualquier otro valor, las podes pasar como parámetros a otras funciones y devolverlas en funciones que es clave para el concepto de decoradores también se pueden almacenar en estructuras de datos
