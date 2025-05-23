@@ -36,3 +36,19 @@ Así se podrían usar de forma básica, cuando se llama a la función principal 
 >funcion principal
 >despues de la funcion
 ```
+
+Esta seria la sintaxis de un decorador:
+```
+def decorator_name(func):  
+	def wrapper(*args, **kwargs):  
+		# Add functionality before the original function call  
+		result = func(*args, **kwargs)  
+		# Add functionality after the original function call  
+		return result  
+	return wrapper
+
+@decorator_name  
+def function_to_decorate():  
+	# Original function code  
+	pass
+```
