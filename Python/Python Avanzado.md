@@ -83,4 +83,4 @@ def uppercase(txt):
 print(fun1(uppercase))
 ```
 
-este es otro ejemplo, la salida seria `HOLA`
+Este es otro ejemplo, la salida seria `HOLA`
