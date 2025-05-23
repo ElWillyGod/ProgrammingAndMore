@@ -90,34 +90,34 @@ Puedes ver las similitudes??, en esencia los decoradores son son funciones de or
 Te dejo un ejemplo medio loco:
 
 ```python
-# Assigning a function to a variable
+
 def greet(n):
     return f"Hello, {n}!"
 
-say_hi = greet  # Assign the greet function to say_hi
-print(say_hi("Alice"))  # Output: Hello, Alice!
+say_hi = greet
+print(say_hi("Willy"))
 
-# Passing a function as an argument
 def apply(f, v):
     return f(v)
 
-res = apply(say_hi, "Bob")
-print(res)  # Output: Hello, Bob!
+res = apply(say_hi, "Manu")
+print(res)
 
-# Returning a function from another function
+
 def make_mult(f):
     def mult(x):
         return x * f
     return mult
 
 dbl = make_mult(2)
-print(dbl(5))  # Output: 10
+print(dbl(5))
 ```
 
 Esta es la salida:
 ```bash
->Hello, Alice!
->Hello, Bob!
+>Hello, Willy!
+>Hello, Manu!
 >10
 ```
 
+Me parece re loco, sobre todo el ejemplo de la multiplicación, intenta razonar que valor tiene `f` y `x` en la llamada a la función make_mult
