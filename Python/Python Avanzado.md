@@ -85,4 +85,39 @@ print(fun1(uppercase))
 
 Este es otro ejemplo, la salida seria `HOLA`.
 
-Puedes ver las similitudes??, en esencia los decoradores son son funciones de orden mayor que toman como parámetro una función, la modifican y devuelven una nueva función que extiende o cambia su funcionamiento, recordemos también que las funciones son objetos de primera clase (en python todo son objetos igual) esto significa que se pueden tratar como cualquier otro objeto, se le pueden asignar a variables y usarse como cualquier otro valor, las podes pasar como parámetros a otras funciones y devolverlas en funciones que es clave para el concepto de decoradores también se pueden almacenar en estructuras de datos
+Puedes ver las similitudes??, en esencia los decoradores son son funciones de orden mayor que toman como parámetro una función, la modifican y devuelven una nueva función que extiende o cambia su funcionamiento, recordemos también que las funciones son objetos de primera clase (en python todo son objetos igual) esto significa que se pueden tratar como cualquier otro objeto, se le pueden asignar a variables y usarse como cualquier otro valor, las podes pasar como parámetros a otras funciones y devolverlas en funciones que es clave para el concepto de decoradores también se pueden almacenar en estructuras de datos.
+
+Te dejo un ejemplo medio loco:
+
+```python
+# Assigning a function to a variable
+def greet(n):
+    return f"Hello, {n}!"
+
+say_hi = greet  # Assign the greet function to say_hi
+print(say_hi("Alice"))  # Output: Hello, Alice!
+
+# Passing a function as an argument
+def apply(f, v):
+    return f(v)
+
+res = apply(say_hi, "Bob")
+print(res)  # Output: Hello, Bob!
+
+# Returning a function from another function
+def make_mult(f):
+    def mult(x):
+        return x * f
+    return mult
+
+dbl = make_mult(2)
+print(dbl(5))  # Output: 10
+```
+
+Esta es la salida:
+```bash
+>Hello, Alice!
+>Hello, Bob!
+>10
+```
+
