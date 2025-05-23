@@ -57,5 +57,17 @@ Una función que recibe como parámetro otra función, rompamos la cuarta pared,
 
 Una función de orden mayor son esas funciones que pueden tomar una o mas funciones como argumento y/o devolver una función como resultado que se puede llamar mas tarde, de forma básica se podría ver así:
 
-``
+```python
+# Esta es la funcion de orden mayor
+def fun(f, x):
+	return f(x)
 
+# Esto es una funcion normal
+def square(x):
+	return x * x
+
+res = fun(square, 4)
+print(res)
+```
+
+La salida de ese código es `16` 
