@@ -41,14 +41,16 @@ Esta seria la sintaxis de un decorador:
 ```
 def decorator_name(func):  
 	def wrapper(*args, **kwargs):  
-		# Add functionality before the original function call  
+		# Las cosas que queres que se hagan antes de la funcion 
 		result = func(*args, **kwargs)  
-		# Add functionality after the original function call  
+		# y las cosas despues de la funcion
 		return result  
 	return wrapper
 
 @decorator_name  
 def function_to_decorate():  
-	# Original function code  
+	# el codigo original
 	pass
 ```
+
+Una función que recibe como parámetro otra función, rompamos la cuarta pared, a vos te suena eso??, tal vez conozcas el termino funciones de orden superior o mayor (Higher-Order Functions) eso es algo muy importante en lo que es programación funcional y clave para 
