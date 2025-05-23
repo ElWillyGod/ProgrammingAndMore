@@ -85,4 +85,4 @@ print(fun1(uppercase))
 
 Este es otro ejemplo, la salida seria `HOLA`.
 
-Puedes ver las similitudes??, en esencia 
+Puedes ver las similitudes??, en esencia los decoradores son esencialmente son funciones de orden mayor que toman como parámetro una función, la modifican y devuelven una nueva función que extiende o cambia su funcionamiento, por la cual son una funcion de orden mayor
