@@ -38,7 +38,7 @@ Así se podrían usar de forma básica, cuando se llama a la función principal 
 ```
 
 Esta seria la sintaxis de un decorador:
-```
+```python
 def decorator_name(func):  
 	def wrapper(*args, **kwargs):  
 		# Las cosas que queres que se hagan antes de la funcion 
@@ -53,4 +53,4 @@ def function_to_decorate():
 	pass
 ```
 
-Una función que recibe como parámetro otra función, rompamos la cuarta pared, a vos te suena eso??, tal vez conozcas el termino funciones de orden superior o mayor (Higher-Order Functions) eso es algo muy importante en lo que es programación funcional y clave para 
+Una función que recibe como parámetro otra función, rompamos la cuarta pared, a vos te suena eso??, tal vez conozcas el termino funciones de orden superior o mayor (Higher-Order Functions) eso es algo muy importante en lo que es programación funcional y clave para entender como funcionan los decoradores.
