@@ -120,4 +120,39 @@ Esta es la salida:
 >10
 ```
 
-Me parece re loco, sobre todo el ejemplo de la multiplicación, intenta razonar que valor tiene `f` y `x` en la llamada a la función make_mult
+Me parece re loco, sobre todo el ejemplo de la multiplicación, intenta razonar que valor tiene `f` y `x` en la llamada a la función make_mult.
+
+### Tipos de Decoradores
+
+Si, hay tipos de decoradores, yo no lo sabia del todo.
+
+
+#### Function Decorators
+
+El tipo de decorador mas común, toma una función como entrada y devuelve una nueva.
+
+```python
+# decorador
+
+def decorador(funcion):
+	def cositas():
+		print("antes de la funcion")
+		funcion()
+		print("despues de la funcion")
+	return cositas
+
+@decorador
+def funcion_principal():
+	print("funcion principal")
+
+funcion_principal()
+```
+
+La salida seria esta:
+
+```bash
+>antes de la funcion
+>funcion principal
+>despues de la funcion
+```
+
