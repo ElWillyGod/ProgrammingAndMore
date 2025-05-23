@@ -9,25 +9,30 @@ Los famosos decoradores, se usan todo el tiempo, pero...
 
 ### Que son??
 
-Básicamente son funciones que reciben como parámetros otras funciones, tienen algunas cosas especiales como el "wrapper" que es la forma que se tiene para agregar funcionalidades a esta función que llega como parámetro.
+Básicamente son funciones que reciben como parámetros otras funciones, generalmente  se usa para agregar funcionalidades a esta función que llega como parámetro.
 Esto seria un ejemplo básico de como se utiliza.
 
 ```python
 # decorador
 
-def esteEsElDecorador(func):
-
-	def wrapper():
+def decorador(funcion):
+	def cositas():
 		print("antes de la funcion")
-		func()
+		funcion()
 		print("despues de la funcion")
-	return wrapper
+	return cositas
 
-@esteEsElDecorador
-def hello():
-	print ("Hello, World!")
+@decorador
+def funcion_principal():
+	print("funcion principal")
 
-hello()
+funcion_principal()
 ```
 
-Asi se podrían usar de forma básica, el wrapper lo que hace es encapsular la nueva funcionalidad a la funcion que viene por parámetro
+Así se podrían usar de forma básica, cuando se llama a la función principal se ejecuta el decorador que no es mas que otra función que mediante la sub función "cositas" se le agregan funcionalidades a la función principal, difícil de explicar pero fácil de entender con el ejemplo, la salida de ese código seria esta:
+
+```bash
+>antes de la funcion
+>funcion principal
+>despues de la funcion
+```
