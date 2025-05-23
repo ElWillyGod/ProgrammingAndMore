@@ -70,4 +70,4 @@ res = fun(square, 4)
 print(res)
 ```
 
-La salida de ese código es `16` 
+La salida de ese código es `16`, básicamente estoy llamando a fun y le paso dos parámetros, el primero es la segunda función y el segundo en este caso es el parámetro de la segunda función, cuando de ejecuta fun, retorna la función square con el segundo parámetros
