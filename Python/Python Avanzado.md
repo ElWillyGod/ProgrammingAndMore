@@ -80,5 +80,7 @@ def uppercase(txt):
 	return txt.upper()
 
 
-print(fun1(upper))
+print(fun1(uppercase))
 ```
+
+este es otro ejemplo, la salida seria `HOLA`
