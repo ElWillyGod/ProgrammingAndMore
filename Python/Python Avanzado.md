@@ -5,9 +5,7 @@ Voy a estudiar tres cosas "avanzadas" de Python, los decoradores custom, las met
 
 ## Decorators in Python
 
-Los famosos decoradores, se usan todo el tiempo, pero...
-
-### Que son??
+Los famosos decoradores, se usan todo el tiempo, pero... Que son??
 
 Básicamente son funciones que reciben como parámetros otras funciones, generalmente  se usa para agregar funcionalidades a esta función que llega como parámetro.
 Esto seria un ejemplo básico de como se utiliza.
@@ -53,4 +51,11 @@ def function_to_decorate():
 	pass
 ```
 
-Una función que recibe como parámetro otra función, rompamos la cuarta pared, a vos te suena eso??, tal vez conozcas el termino funciones de orden superior o mayor (Higher-Order Functions) eso es algo muy importante en lo que es programación funcional y clave para entender como funcionan los decoradores.
+Una función que recibe como parámetro otra función, rompamos la cuarta pared, a vos te suena eso??, tal vez conozcas el termino funciones de orden superior o mayor (Higher-Order Functions), eso es algo muy importante en lo que es programación funcional y clave para entender como funcionan los decoradores.
+
+### Funciones de Orden Mayor
+
+Una función de orden mayor son esas funciones que pueden tomar una o mas funciones como argumento y/o devolver una función como resultado que se puede llamar mas tarde, de forma básica se podría ver así:
+
+``
+
