@@ -122,14 +122,7 @@ Esta es la salida:
 
 Me parece re loco, sobre todo el ejemplo de la multiplicación, intenta razonar que valor tiene `f` y `x` en la llamada a la función make_mult.
 
-### Tipos de Decoradores
-
-Si, hay tipos de decoradores, yo no lo sabia del todo.
-
-
-#### Function Decorators
-
-El tipo de decorador mas común, toma una función como entrada y devuelve una nueva.
+Los decoradores se pueden usar de distintas maneras, la clásica es en las funciones, que seria algo asi:
 
 ```python
 # decorador
@@ -148,12 +141,36 @@ def funcion_principal():
 funcion_principal()
 ```
 
-La salida seria esta:
+Pero también se pueden usar en métodos de clases:
 
-```bash
->antes de la funcion
->funcion principal
->despues de la funcion
+```python
+def method_decorator(func):
+    def wrapper(self, *args, **kwargs):
+        print("Before method execution")
+        res = func(self, *args, **kwargs)
+        print("After method execution")
+        return res
+    return wrapper
+
+class MyClass:
+    @method_decorator
+    def say_hello(self):
+        print("Hello!")
+
+obj = MyClass()
+obj.say_hello()
 ```
 
-Este ejemplo lo explicamos mas arriba pero es bastante fácil de entender.
+Se ejecuta cuando se llama a un método de clase, o incluso para definir métodos de clases.
+
+```python
+def fun(cls):
+    cls.class_name = cls.__name__
+    return cls
+
+@fun
+class Person:
+    pass
+
+print(Person.class_name)
+```
