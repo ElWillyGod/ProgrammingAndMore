@@ -122,6 +122,8 @@ Esta es la salida:
 
 Me parece re loco, sobre todo el ejemplo de la multiplicación, intenta razonar que valor tiene `f` y `x` en la llamada a la función make_mult.
 
+### Usos
+
 Los decoradores se pueden usar de distintas maneras, la clásica es en las funciones, que seria algo asi:
 
 ```python
@@ -135,7 +137,7 @@ def decorador(funcion):
 	return cositas
 
 @decorador
-def funcion_principal():
+def funcio[^1]n_principal():
 	print("funcion principal")
 
 funcion_principal()
@@ -176,4 +178,8 @@ print(Person.class_name)
 ```
 
 
+
+
 # Metaclasses
+
+[^1]: 
