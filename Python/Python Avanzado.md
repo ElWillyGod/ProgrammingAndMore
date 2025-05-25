@@ -217,4 +217,5 @@ print(num2())
 
 Notar el orden de ejecución de los decoradores.
 
-# Metaclasses
+# GIL multiprocesamiento y multihilo
+
