@@ -124,7 +124,7 @@ Me parece re loco, sobre todo el ejemplo de la multiplicación, intenta razonar 
 
 ### Usos
 
-Los decoradores se pueden usar de distintas maneras, la clásica es en las funciones, que seria algo asi:
+Los decoradores se pueden usar de distintas maneras, la clásica es en las funciones, que seria algo así:
 
 ```python
 # decorador
@@ -178,8 +178,43 @@ print(Person.class_name)
 ```
 
 
+### Combinación de decoradores
 
+Los decoradores se pueden combinar, tiene todo el sentido del mundo:
+
+```python
+
+def decor1(func): 
+    def inner(): 
+        x = func() 
+        return x * x 
+    return inner 
+
+def decor(func): 
+    def inner(): 
+        x = func() 
+        return 2 * x 
+    return inner 
+
+@decor1
+@decor
+def num(): 
+    return 10
+
+@decor
+@decor1
+def num2():
+    return 10
+  
+print(num()) 
+print(num2())
+```
+
+```bash
+>400
+>200
+```
+
+Notar el orden de ejecución de los decoradores.
 
 # Metaclasses
-
-[^1]: 
