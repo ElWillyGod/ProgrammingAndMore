@@ -174,3 +174,6 @@ class Person:
 
 print(Person.class_name)
 ```
+
+
+# Metaclasses
