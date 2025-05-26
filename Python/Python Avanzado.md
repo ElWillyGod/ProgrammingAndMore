@@ -219,3 +219,5 @@ Notar el orden de ejecución de los decoradores.
 
 # GIL multiprocesamiento y multihilo
 
+
+Es todo un tema este

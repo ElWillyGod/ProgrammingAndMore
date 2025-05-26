@@ -162,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,8 +177,9 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "Cybersecurity/CVE.md",
+    "Automatización de Backus.md",
     "Python/Python Avanzado.md",
+    "Cybersecurity/CVE.md",
     "Python",
     "Cybersecurity/Gobuster.md",
     "Cybersecurity/Sqlmap.md",
@@ -189,7 +189,6 @@
     "Kotlin/Kotlin.md",
     "Git/Certificado GIT.md",
     "Docker/Docker.md",
-    "Automatización de Backus.md",
     "SQL/PLSQL.md",
     "SQL/Procedimientos almacenados.md",
     "Sin título.md",
