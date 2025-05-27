@@ -137,7 +137,7 @@ def decorador(funcion):
 	return cositas
 
 @decorador
-def funcio[^1]n_principal():
+def funcion_principal():
 	print("funcion principal")
 
 funcion_principal()
