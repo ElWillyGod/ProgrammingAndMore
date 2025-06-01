@@ -220,3 +220,4 @@ Notar el orden de ejecución de los decoradores.
 # GIL multiprocesamiento y multihilo
 
 El multiprocesamiento en Python se refiere a la capacidad de un programa para ejecutar tareas en paralelo utilizando múltiples procesadores o núcleos.
+Es todo un tema pero 
