@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python Avanzado.md",
+                "file": "Docker/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Avanzado"
+              "title": "Docker"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python Avanzado.md",
+                "file": "Docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Python Avanzado"
+              "title": "Enlaces salientes de Docker"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python Avanzado.md",
+                "file": "Docker/Docker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python Avanzado"
+              "title": "Esquema de Docker"
             }
           },
           {
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 429.5
+    "width": 326.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,11 +181,11 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
+    "Python/Python Avanzado.md",
     "Kotlin/Kotlin.md",
     "Git/Certificado GIT.md",
     "Docker/Docker.md",
     "Sin título.canvas",
-    "Python/Python Avanzado.md",
     "Automatización de Backus.md",
     "Cybersecurity/CVE.md",
     "Python",
