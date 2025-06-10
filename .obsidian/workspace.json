@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin/Kotlin.md",
+                "file": "Python/Python Avanzado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Kotlin"
+              "title": "Enlaces salientes de Python Avanzado"
             }
           },
           {
@@ -128,7 +128,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Etiquetas"
@@ -140,10 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Certificado GIT.md"
+                "file": "Python/Python Avanzado.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Certificado GIT"
+              "title": "Esquema de Python Avanzado"
             }
           },
           {
@@ -161,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 429.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,18 +181,18 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "Automatización de Backus.md",
+    "Kotlin/Kotlin.md",
+    "Git/Certificado GIT.md",
+    "Docker/Docker.md",
+    "Sin título.canvas",
     "Python/Python Avanzado.md",
+    "Automatización de Backus.md",
     "Cybersecurity/CVE.md",
     "Python",
     "Cybersecurity/Gobuster.md",
     "Cybersecurity/Sqlmap.md",
     "Sin título 1.canvas",
-    "Sin título.canvas",
     "Cybersecurity/Nmap.md",
-    "Kotlin/Kotlin.md",
-    "Git/Certificado GIT.md",
-    "Docker/Docker.md",
     "SQL/PLSQL.md",
     "SQL/Procedimientos almacenados.md",
     "Sin título.md",
