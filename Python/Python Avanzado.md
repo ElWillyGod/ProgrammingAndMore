@@ -219,8 +219,5 @@ Notar el orden de ejecución de los decoradores.
 
 # GIL, multiprocesamiento y multihilo
 
-El Bloqueo Global del Intérprete de Python (GIL) es un bloqueo que permite que sólo un hilo mantenga el control sobre el intérprete de Python, esto quiere decir que un solo hilo puede estar en ejecucion en cualquier momento.Los hilos múltiples están sujetos a la GIL, lo que a menudo hace que utilizar Python para realizar multihilos sea una mala idea: la verdadera ejecución multinúcleo mediante multihilos no está soportada por Python en el intérprete CPython. Sin embargo, los procesos no están sujetos al GIL porque éste se utiliza dentro de cada proceso Python, pero no entre procesos.
-
-El multiprocesamiento se refiere a la capacidad de un programa para ejecutar tareas en paralelo utilizando múltiples procesadores o núcleos.
-
+El Bloqueo Global del Intérprete de Python (GIL) es un bloqueo que permite que sólo un hilo mantenga el control sobre el intérprete de Python, esto quiere decir que un solo hilo puede estar en ejecucion en cualquier momento.Los hilos múltiples están sujetos a la GIL, lo que a menudo hace que utilizar Python para realizar multihilos sea una mala idea: la verdadera ejecución multinúcleo mediante multihilos no está soportada por Python en el intérprete CPython. Sin embargo, los procesos no están sujetos al GIL porque éste se utiliza dentro de cada proceso Python, pero no entre procesos. Esto da la posibilidad de poder crear procesos paralelos para ejecutar condigo async, pero no es multihilo como tal, existen técnicas que permiten liberar temporalmente el GIL como usando PyO3, pero esto es bien raro, en realidad PyO3 es una biblioteca de Rust para crear exenciones de Python en Rust, esto permite que el código de Rust se utilice directamente desde Python y permite interactuar con el interprete de Python desde el código de Rust (esto esta re loco)
  
