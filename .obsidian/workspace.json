@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker.md",
+                "file": "Python/Python Avanzado.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Python Avanzado"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 200
   },
   "right": {
     "id": "fb07d73a83279c36",
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker.md",
+                "file": "Python/Python Avanzado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Docker"
+              "title": "Enlaces salientes de Python Avanzado"
             }
           },
           {
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 204.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,12 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d95e5b7aa4db61f",
+  "active": "e32cfe5ef3ea5fbd",
   "lastOpenFiles": [
+    "Docker/Docker.md",
     "Python/Python Avanzado.md",
     "Kotlin/Kotlin.md",
     "Git/Certificado GIT.md",
-    "Docker/Docker.md",
     "Sin título.canvas",
     "Automatización de Backus.md",
     "Cybersecurity/CVE.md",
