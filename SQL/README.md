@@ -10,4 +10,4 @@ PLSQL es un lenguajes de base de datos de Oracle que se basa en uso de procedimi
 
 ### [Procedimientos Almacenados](/SQL/Procedimientos_Almacenados)
 
-Los procedimientos almacenado
+Los procedimientos almacenado se asemejan a ser funciones de programación pero dentro de una base de datos (en lo personal es bastante interesante).
