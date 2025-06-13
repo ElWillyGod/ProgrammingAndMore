@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Programming/Python/Python_Avanzado.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Python_Avanzado"
             }
           }
         ]
@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5
+    "width": 204.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,6 +181,7 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
+    "README.md",
     "Automatización de Backus.md",
     "Virtualización/README.md",
     "Virtualización/Docker.md",
@@ -198,7 +200,6 @@
     "Cybersecurity/Nmap.md",
     "Cybersecurity/Gobuster.md",
     "Cybersecurity/CVE.md",
-    "README.md",
     "ProgrammingAndMore/SQL/README.md",
     "ProgrammingAndMore/SQL",
     "ProgrammingAndMore",
