@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Python/Python_Avanzado.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python_Avanzado"
+              "title": "README"
             }
           }
         ]
@@ -181,17 +181,17 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "SQL/README.md",
     "SQL/Procedimientos_Almacenados.md",
-    "Virtualización/Docker.md",
     "SQL/PLSQL.md",
+    "SQL/README.md",
+    "Programming/Python/Python_Avanzado.md",
+    "Virtualización/Docker.md",
     "Git/README.md",
     "Programming/README.md",
     "Programming/Kotlin/README.md",
     "Programming/Python/README.md",
     "README.md",
     "Programming",
-    "Programming/Python/Python_Avanzado.md",
     "Programming/Kotlin/Kotlin.md",
     "Git/Certificado_GIT.md",
     "Cybersecurity/README.md",
