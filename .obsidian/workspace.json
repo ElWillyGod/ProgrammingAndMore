@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Python/Python_Avanzado.md",
+                "file": "CDIVV/Números Complejos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python_Avanzado"
+              "title": "Números Complejos"
             }
           }
         ]
@@ -165,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5,
-    "collapsed": true
+    "width": 204.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,6 +180,8 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
+    "CDIVV/Ecuaciones diferenciales.md",
+    "Programming/Python/Python_Avanzado.md",
     "CDIVV/Pasted image 20230804222333.png",
     "CDIVV/Pasted image 20230803005732.png",
     "CDIVV/Pasted image 20230802215957.png",
@@ -188,7 +189,6 @@
     "CDIVV/Pasted image 20230802112156.png",
     "CDIVV/Pasted image 20230802110852.png",
     "CDIVV/Números Complejos.md",
-    "CDIVV/Ecuaciones diferenciales.md",
     "CDIVV",
     "README.md",
     "Automatización de Backus.md",
@@ -199,7 +199,6 @@
     "SQL/PLSQL.md",
     "Programming/README.md",
     "Programming/Python/README.md",
-    "Programming/Python/Python_Avanzado.md",
     "Programming/Kotlin/README.md",
     "Programming/Kotlin/Kotlin.md",
     "Git/README.md",

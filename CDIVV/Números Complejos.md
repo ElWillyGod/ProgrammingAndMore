@@ -19,7 +19,7 @@ Los números tienen origen histórico en XVI Rafael Bombelli los comienza a mani
 
 ## Complejos y su Geometría
 
-Entonces un cuerpo $C$, que es una extensión de los reales, pero que se porta mejor con las ecuaciones polinomiales. hay alguna propiedad de los reales que hayamos perdido en los complejos?, Si, ==Lo que no podemos hacer en $c$ es rdenarlos, de manera que se "porten bien" con las operaciones==. Los reales son entonces un cuerpo ordenado pero los complejos no. Pero los complejos son un cuerpo algebraicamente cerrado, y los reales no.
+Entonces un cuerpo $C$, que es una extensión de los reales, pero que se porta mejor con las ecuaciones polinomiales. hay alguna propiedad de los reales que hayamos perdido en los complejos?, Si, ==Lo que no podemos hacer en $c$ es ordenarlos, de manera que se "porten bien" con las operaciones==. Los reales son entonces un cuerpo ordenado pero los complejos no. Pero los complejos son un cuerpo algebraicamente cerrado, y los reales no.
 
 podemos escribir un complejo cualquiera $z=(a,b)$ descomponiendo su parte real y su parte imaginaria:
 $$z=(a,b)=(a,0)+(0,b) = a(1,0)+b(0,1)= a+bi$$
