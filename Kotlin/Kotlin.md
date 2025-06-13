@@ -240,4 +240,4 @@ En el ejemplo anterior se muestra como recorrer un rango de `a` hasta `x`, el ra
 
 # Funciones
 
-Las funciones son bloques de código que se pueden llamar desde cualquier parte, mientras la función esa accesible para el mismo, mas adelante halaremos
+Las funciones son bloques de código que se pueden llamar desde cualquier parte, mientras la función esa accesible 
