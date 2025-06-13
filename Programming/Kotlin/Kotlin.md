@@ -1,5 +1,5 @@
-
-# Variables
+# Kotlin
+## Variables
 
 Tenemos 5 tipos de variables en kotlin, casi los mismos que en Java:
 

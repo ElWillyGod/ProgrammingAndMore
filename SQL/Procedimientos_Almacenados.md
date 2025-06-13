@@ -1,3 +1,4 @@
+# Procedimientos Almacenados
 
 Un procedimiento almacenado es un conjunto de instrucciones de tipo SQL que son ejecútales del mismo modo que una función en el ámbito de la programación, para poder realizar un procedimiento almacenado primero se debe saber que sentencias SQL se realizaran en el mismo, la sintaxis básica para estos procedimientos es la siguiente:
 
