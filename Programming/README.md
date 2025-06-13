@@ -4,5 +4,5 @@ En esta sección estaré se encontraran algunos lenguajes que estudie ya sea de 
 
 ## Indice
 
-1. [Python](./Python/README)
-2. [Kotlin](/Programming/Kotlin/README)
+1. [Python](./Python/README.md)
+2. [Kotlin](./Kotlin/README.md)
