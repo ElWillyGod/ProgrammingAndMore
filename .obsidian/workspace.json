@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CDIVV/Números Complejos.md",
+                "file": "Virtualización/Virtualización.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Números Complejos"
+              "title": "Virtualización"
             }
           }
         ]
@@ -180,6 +180,9 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
+    "Virtualización/Docker.md",
+    "Virtualización/Virtualización.md",
+    "CDIVV/Números Complejos.md",
     "CDIVV/Ecuaciones diferenciales.md",
     "Programming/Python/Python_Avanzado.md",
     "CDIVV/Pasted image 20230804222333.png",
@@ -188,12 +191,10 @@
     "CDIVV/Pasted image 20230802185309.png",
     "CDIVV/Pasted image 20230802112156.png",
     "CDIVV/Pasted image 20230802110852.png",
-    "CDIVV/Números Complejos.md",
     "CDIVV",
     "README.md",
     "Automatización de Backus.md",
     "Virtualización/README.md",
-    "Virtualización/Docker.md",
     "SQL/Procedimientos_Almacenados.md",
     "SQL/README.md",
     "SQL/PLSQL.md",
