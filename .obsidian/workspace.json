@@ -11,14 +11,10 @@
             "id": "0d95e5b7aa4db61f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Virtualización/Virtualización.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Virtualización"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 253.5
   },
   "right": {
     "id": "fb07d73a83279c36",
@@ -113,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Enlaces salientes de Docker"
             }
           },
           {
@@ -165,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5
+    "width": 326.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,51 +177,51 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "Virtualización/Docker.md",
+    "Docker/Docker.md",
     "Virtualización/Virtualización.md",
-    "CDIVV/Números Complejos.md",
-    "CDIVV/Ecuaciones diferenciales.md",
+    "Virtualización/README.md",
+    "Virtualización/Docker.md",
+    "Virtualización",
+    "SQL/README.md",
+    "SQL/Procedimientos_Almacenados.md",
+    "README.md",
+    "Programming/Python/README.md",
     "Programming/Python/Python_Avanzado.md",
+    "Programming/Kotlin/README.md",
+    "Programming/Kotlin/Kotlin.md",
+    "Programming/README.md",
+    "Programming/Python",
+    "Programming/Kotlin",
+    "Programming",
+    "Cybersecurity/README.md",
     "CDIVV/Pasted image 20230804222333.png",
     "CDIVV/Pasted image 20230803005732.png",
     "CDIVV/Pasted image 20230802215957.png",
     "CDIVV/Pasted image 20230802185309.png",
     "CDIVV/Pasted image 20230802112156.png",
     "CDIVV/Pasted image 20230802110852.png",
+    "CDIVV/Números Complejos.md",
+    "CDIVV/Ecuaciones diferenciales.md",
     "CDIVV",
-    "README.md",
-    "Automatización de Backus.md",
-    "Virtualización/README.md",
-    "SQL/Procedimientos_Almacenados.md",
-    "SQL/README.md",
-    "SQL/PLSQL.md",
-    "Programming/README.md",
-    "Programming/Python/README.md",
-    "Programming/Kotlin/README.md",
-    "Programming/Kotlin/Kotlin.md",
-    "Git/README.md",
-    "Git/Certificado_GIT.md",
-    "Cybersecurity/Sqlmap.md",
-    "Cybersecurity/README.md",
-    "Cybersecurity/Nmap.md",
-    "Cybersecurity/Gobuster.md",
-    "Cybersecurity/CVE.md",
-    "ProgrammingAndMore/SQL/README.md",
-    "ProgrammingAndMore/SQL",
-    "ProgrammingAndMore",
-    "Programing/README.md",
-    "Programing",
-    "Programming",
-    "Git/`Certificado.md",
-    "Git/'Certificado.md",
+    "Python/Python Avanzado.md",
+    "Kotlin/Kotlin.md",
+    "Git/Certificado GIT.md",
     "Sin título.canvas",
+    "Automatización de Backus.md",
+    "Cybersecurity/CVE.md",
+    "Python",
+    "Cybersecurity/Gobuster.md",
+    "Cybersecurity/Sqlmap.md",
     "Sin título 1.canvas",
-    "Programming/Python",
+    "Cybersecurity/Nmap.md",
+    "SQL/PLSQL.md",
+    "SQL/Procedimientos almacenados.md",
+    "Sin título.md",
     "Sin título 2.canvas",
     "Git/Pasted image 20231127235238.png",
     "Cybersecurity",
-    "Programming/Kotlin",
+    "Kotlin",
     "SQL",
-    "Virtualización"
+    "Docker"
   ]
 }
