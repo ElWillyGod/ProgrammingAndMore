@@ -1,6 +1,6 @@
 # Linux y Shell
 
-- [ ] Kernel y Distribuciones: poder describir qué es el kernel, sus funciones principales, qué es el user-space y qué es una distribución de Linux
+- [x] Kernel y Distribuciones: poder describir qué es el kernel, sus funciones principales, qué es el user-space y qué es una distribución de Linux
 - [ ] Saber nombrar las principales diferencias entre Debian/Ubuntu y entre RedHat/Fedora/CentOS/RockyLinux/AlmaLinux.
 - [ ] Entender la shell, el ambiente del usuario, variables, funciones y aliases.
 - [ ] Conocer los comandos básicos: ls, cd, pwd, date, who, echo, top, ps, man, apropos, entre otros.
@@ -18,3 +18,5 @@ Se encarga principalmente de la gestión de memoria, supervisando cuanta memoria
 Si el kernel es implementado de forma correcta es invisible par el usuario y funciona en su propio mundo pequeño conocido como espacio de kernel  donde asigna memoria y supervisa el lugar en el que se almacena cada elemento, lo que esta a la vista del usuario, como los exploradores y los archivos, se conoce como el espacio del usuario que es básicamente todo el código que esta fuera del kernel desde lo antes mencionado hasta diversos programas y bibliotecas, todas estas aplicaciones se comunican con el kernel a través de una interfaz de llamadas al sistema(SCI)
 Una llamada al sistema es una rutina que permite a una aplicación de usuario solicitar acciones que requieren privilegios especiales. La adición de llamadas al sistema es una de la varias maneras de ampliar las funciones proporcionadas por el kernel.
 La diferencia entre una llamada al sistema y una llamada de función ordinaria solo es importante en el entorno de programación del kernel, generalmente las aplicaciones en modalidad de usuario no suelen estar al tanto de esta distinción.
+
+Una distro de linux es un sistema operativo que esta construido encima del kernel de linux, esencialmente es la combinación del kernel de linux y otros paquetes de software, por ejemplo Debian y Ubuntu
