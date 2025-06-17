@@ -180,10 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e32cfe5ef3ea5fbd",
+  "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "Virtualización/Docker.md",
+    "Linux/README.md",
+    "README.md",
     "Linux/Linux.md",
+    "Virtualización/Docker.md",
     "Linux",
     "Automatización de Backus.md",
     "Docker/Docker.md",
@@ -192,7 +194,6 @@
     "Virtualización",
     "SQL/README.md",
     "SQL/Procedimientos_Almacenados.md",
-    "README.md",
     "Programming/Python/README.md",
     "Programming/Python/Python_Avanzado.md",
     "Programming/Kotlin/README.md",
@@ -222,7 +223,6 @@
     "Sin título 1.canvas",
     "Cybersecurity/Nmap.md",
     "SQL/PLSQL.md",
-    "SQL/Procedimientos almacenados.md",
     "Sin título 2.canvas",
     "Git/Pasted image 20231127235238.png",
     "Cybersecurity",
