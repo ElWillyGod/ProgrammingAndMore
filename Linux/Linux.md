@@ -19,4 +19,4 @@ Si el kernel es implementado de forma correcta es invisible par el usuario y fun
 Una llamada al sistema es una rutina que permite a una aplicación de usuario solicitar acciones que requieren privilegios especiales. La adición de llamadas al sistema es una de la varias maneras de ampliar las funciones proporcionadas por el kernel.
 La diferencia entre una llamada al sistema y una llamada de función ordinaria solo es importante en el entorno de programación del kernel, generalmente las aplicaciones en modalidad de usuario no suelen estar al tanto de esta distinción.
 
-Una distro de linux es un sistema operativo que esta construido encima del kernel de linux, esencialmente es la combinación del kernel de linux y otros paquetes de software, por ejemplo Debian y Ubuntu
+Una distro de linux es un sistema operativo que esta construido encima del kernel de linux, esencialmente es la combinación del kernel de linux y otros paquetes de software, por ejemplo Debian y Ubuntu, tenes distros de código abierto, cerrado, orientados a empresas o a un uso general.
