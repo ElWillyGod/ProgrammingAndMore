@@ -9,3 +9,8 @@
 - [ ] Ejecución y parada de programas, entender los distintos tipos de señales, programas en background y volver a foreground.
 - [ ] Tuberías y redireccionamiento, entender los flujos estándar y como conectar procesos usando tuberías.
 - [ ] Expresiones regulares, uso de egrep.
+
+
+## Kernel
+
+
