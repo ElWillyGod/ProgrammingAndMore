@@ -13,4 +13,5 @@
 
 ## Kernel
 
-
+El kernel en encuentra dentro del sistema operativo y controla todas las funciones principales del hardware, ya sea un telefono, una computadora o cualquier equipo
+Se encarga principalmente de la gestion de memoria, supervisando cuanta memoria se utiliza para almacenar que tipo de archivos 
