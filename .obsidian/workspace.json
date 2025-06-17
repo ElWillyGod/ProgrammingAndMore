@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtualización/Docker.md",
+                "file": "Linux/Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Linux"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 200
   },
   "right": {
     "id": "fb07d73a83279c36",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker.md",
+                "file": "Linux/Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Docker"
+              "title": "Esquema de Linux"
             }
           },
           {
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 326.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,13 +180,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d95e5b7aa4db61f",
+  "active": "e32cfe5ef3ea5fbd",
   "lastOpenFiles": [
+    "Virtualización/Docker.md",
+    "Linux/Linux.md",
+    "Linux",
     "Automatización de Backus.md",
     "Docker/Docker.md",
     "Virtualización/Virtualización.md",
     "Virtualización/README.md",
-    "Virtualización/Docker.md",
     "Virtualización",
     "SQL/README.md",
     "SQL/Procedimientos_Almacenados.md",
@@ -220,12 +223,10 @@
     "Cybersecurity/Nmap.md",
     "SQL/PLSQL.md",
     "SQL/Procedimientos almacenados.md",
-    "Sin título.md",
     "Sin título 2.canvas",
     "Git/Pasted image 20231127235238.png",
     "Cybersecurity",
     "Kotlin",
-    "SQL",
-    "Docker"
+    "SQL"
   ]
 }
