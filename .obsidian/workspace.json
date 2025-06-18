@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,9 +181,10 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
+    "Linux/Bash.md",
     "Linux/README.md",
-    "README.md",
     "Linux/Linux.md",
+    "README.md",
     "Virtualización/Docker.md",
     "Linux",
     "Automatización de Backus.md",
@@ -222,7 +222,6 @@
     "Cybersecurity/Sqlmap.md",
     "Sin título 1.canvas",
     "Cybersecurity/Nmap.md",
-    "SQL/PLSQL.md",
     "Sin título 2.canvas",
     "Git/Pasted image 20231127235238.png",
     "Cybersecurity",
