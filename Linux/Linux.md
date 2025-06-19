@@ -20,10 +20,3 @@ Una llamada al sistema es una rutina que permite a una aplicación de usuario so
 La diferencia entre una llamada al sistema y una llamada de función ordinaria solo es importante en el entorno de programación del kernel, generalmente las aplicaciones en modalidad de usuario no suelen estar al tanto de esta distinción.
 
 Una distro de linux es un sistema operativo que esta construido encima del kernel de linux, esencialmente es la combinación del kernel de linux y otros paquetes de software, por ejemplo Debian y Ubuntu, tenes distros de código abierto, cerrado, orientados a empresas o a un uso general.
-
-
-   paired_devices_cmd="devices Paired"
-        # Check if an outdated version of bluetoothctl is used to preserve backwards compatibility
-        if (( $(echo "$(bluetoothctl version | cut -d ' ' -f 2) < 5.65" | bc -l) )); then
-            paired_devices_cmd="paired-devices"
-        fi
