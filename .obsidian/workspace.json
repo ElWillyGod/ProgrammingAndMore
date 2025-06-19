@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bash.md",
+                "file": "Linux/Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bash"
+              "title": "Linux"
             }
           }
         ]
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 326.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,10 +182,10 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
+    "Linux/Bash.md",
     "Virtualización/Docker.md",
     "Automatización de Backus.md",
     "Linux/Linux.md",
-    "Linux/Bash.md",
     "Linux/README.md",
     "README.md",
     "Linux",
