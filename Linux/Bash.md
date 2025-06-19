@@ -41,17 +41,19 @@ main() {
 	gzip listFile.txt
 
 	mv listFile.txt.gz $(df | tail -n 1 | cut -d '%' -f2 | tr -d ' ')
-
-	# lo asi saco la ruta para desmontarlo
-	# df | tail -n 1 | cut -d ' ' -f1
-	# saco la ruta accesible
-	# df | tail -n 1 | cut -d '%' -f2 | tr -d ' '
 	
-	umount $(df | tail -n 1 | cut -d '%' -f2 | tr -d ' ')
+	umount $(df | tail -n 1 | cut -d ' ' -f1)
 
 }
 
 main
 ```
 
-En este ejercicio se trabaja el filtrado de información y el pasaje por tubería de un proceso a otro, utilice `read -s -n` el `-s` es para que no se vea la entrada que ingresa el usuario y el `-n 1` indica la cantidad de  
+En este ejercicio se trabaja el filtrado de información y el pasaje por tubería de un proceso a otro, utilice `read -s -n` el `-s` es para que no se vea la entrada que ingresa el usuario y el `-n 1` indica la cantidad de caracteres que se quiero leer en este caso uno porque debe ser un enter.
+Se usa el redireccionador de salida doble (`>>`) que indica que si el archivo no esta creado que lo cree y si esta creado que lo agregue debajo (esto no es correcto, debería ser un redireccionador simple `>` para que no lo agregue ), use `gzip` para comprimir el archivo y luego lo muevo con `df | tail -n 1 | cut -d '%' -f2 | tr -d ' '` como se pueden ver son 4 comandos distintos que se concatenan, el primero `df`:
+	Este comando muestra los dispositivos de almacenamientos junto a mucha mas información como el tipo de partición el almacenamiento usado y el punto de anclaje y la ruta de acceso.
+
+El segundo comando `tail`:
+	Este se usa para saber cuantas lineas quieres mostrar de un archivo, en esta ocasión le pase la salida del `df` y le indique que me muestre la primera linea (`-n 1`) de abajo hacia arriba.
+	
+El tercer c
