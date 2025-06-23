@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Linux/Proyecto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "Proyecto"
             }
           }
         ]
@@ -113,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Enlaces salientes de Docker"
             }
           },
           {
@@ -141,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker.md",
+                "file": "Linux/Proyecto.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Docker"
+              "title": "Esquema de Proyecto"
             }
           },
           {
@@ -165,13 +166,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:Crear nuevo lienzo": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
@@ -180,51 +181,51 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
+    "Linux/Linux.md",
+    "Linux/Proyecto.md",
     "Linux/README.md",
     "Linux/Bash.md",
-    "Linux/Linux.md",
-    "Virtualización/Virtualización.md",
-    "Linux",
     "Virtualización/Docker.md",
-    "CDIVV/Números Complejos.md",
-    "CDIVV/Ecuaciones diferenciales.md",
+    "Automatización de Backus.md",
+    "README.md",
+    "Linux",
+    "Docker/Docker.md",
+    "Virtualización/Virtualización.md",
+    "Virtualización/README.md",
+    "Virtualización",
+    "SQL/README.md",
+    "SQL/Procedimientos_Almacenados.md",
+    "Programming/Python/README.md",
     "Programming/Python/Python_Avanzado.md",
+    "Programming/Kotlin/README.md",
+    "Programming/Kotlin/Kotlin.md",
+    "Programming/README.md",
+    "Programming/Python",
+    "Programming/Kotlin",
+    "Programming",
+    "Cybersecurity/README.md",
     "CDIVV/Pasted image 20230804222333.png",
     "CDIVV/Pasted image 20230803005732.png",
     "CDIVV/Pasted image 20230802215957.png",
     "CDIVV/Pasted image 20230802185309.png",
     "CDIVV/Pasted image 20230802112156.png",
     "CDIVV/Pasted image 20230802110852.png",
+    "CDIVV/Números Complejos.md",
+    "CDIVV/Ecuaciones diferenciales.md",
     "CDIVV",
-    "README.md",
-    "Automatización de Backus.md",
-    "Virtualización/README.md",
-    "SQL/Procedimientos_Almacenados.md",
-    "SQL/README.md",
-    "SQL/PLSQL.md",
-    "Programming/README.md",
-    "Programming/Python/README.md",
-    "Programming/Kotlin/README.md",
-    "Programming/Kotlin/Kotlin.md",
-    "Git/README.md",
-    "Git/Certificado_GIT.md",
-    "Cybersecurity/Sqlmap.md",
-    "Cybersecurity/README.md",
-    "Cybersecurity/Nmap.md",
-    "Cybersecurity/Gobuster.md",
-    "Cybersecurity/CVE.md",
-    "ProgrammingAndMore/SQL/README.md",
-    "ProgrammingAndMore/SQL",
-    "ProgrammingAndMore",
-    "Programing",
-    "Programming",
+    "Python/Python Avanzado.md",
+    "Kotlin/Kotlin.md",
+    "Git/Certificado GIT.md",
     "Sin título.canvas",
+    "Cybersecurity/CVE.md",
+    "Python",
+    "Cybersecurity/Gobuster.md",
+    "Cybersecurity/Sqlmap.md",
     "Sin título 1.canvas",
-    "Programming/Python",
     "Sin título 2.canvas",
     "Git/Pasted image 20231127235238.png",
     "Cybersecurity",
-    "Programming/Kotlin",
+    "Kotlin",
     "SQL"
   ]
 }
