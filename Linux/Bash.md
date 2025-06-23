@@ -62,3 +62,8 @@ El ultimo comando `tr`:
 	Este lo use porque tenia un espacio al inicio de la linea que me devolvió el  `cut`, entonces le dije que me borre el carácter de espacio (`-d ' '`)
 
 Luego de mover el archivo desmonto la unidad, para eso es `umount` y uso una expresión parecida a la anterior, lo único  es que la idea es extraer el punto de anclaje para poder usar el comando, creo que también lo podes usar con la ruta de acceso (la primera expresión nos da eso mismo) pero para entender un poco mas los comandos decidí sacar el punto de anclaje.
+
+
+## Arreglos Asociativos
+
+Esto parece copado, diría que es como un diccionario en bash, la idea es key=value, igual que un diccionario de toda la vida, también son dinámicos, puedo agregar key y values mientras esta en ejecución.
