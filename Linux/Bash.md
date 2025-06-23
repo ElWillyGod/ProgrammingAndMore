@@ -69,5 +69,7 @@ Luego de mover el archivo desmonto la unidad, para eso es `umount` y uso una exp
 Esto parece copado, diría que es como un diccionario en bash, la idea es key=value, igual que un diccionario de toda la vida, también son dinámicos, puedo agregar key y values mientras esta en ejecución.
 
 ```bash
-declare -A example_array=(["key1"]="value1", ["key2"]="value2", ["key3"]="value3")
+declare -A example_array=(["key1"]="value1" ["key2"]="value2" ["key3"]="value3")
 ```
+
+se necesita el `declare -A` que es para indicar que es un arrays, se pueden agregar mas que los definidos al i
