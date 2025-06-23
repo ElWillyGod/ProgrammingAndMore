@@ -72,4 +72,10 @@ Esto parece copado, diría que es como un diccionario en bash, la idea es key=va
 declare -A example_array=(["key1"]="value1" ["key2"]="value2" ["key3"]="value3")
 ```
 
-se necesita el `declare -A` que es para indicar que es un arrays, se pueden agregar mas que los definidos al i
+se necesita el `declare -A` que es para indicar que es un arrays, se pueden agregar mas que los definidos al inicio colocando una key nueva y el nuevo valor.
+
+```bash
+example_array["new_key"]="new_value"
+```
+
+Y esta, esto esta copado, podemos hacer los alias asi, no se si las variables de entorno también se podrán
