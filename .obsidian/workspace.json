@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Go/Go.md.md",
+                "file": "Programming/Go/Go.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go.md"
+              "title": "Go"
             }
           }
         ]
@@ -181,8 +181,8 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "Programming/Go/README.md.md",
-    "Programming/Go/Go.md.md",
+    "Programming/Go/README.md",
+    "Programming/Go/Go.md",
     "Linux/Bash.md",
     "Programming/Go",
     "Linux/Linux.md",
