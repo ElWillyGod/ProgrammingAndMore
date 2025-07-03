@@ -91,7 +91,14 @@ Es bastante claro el ejemplo
 ## Multi-threading
 
 ESTO SE VA A DESCONTROLARRRRR
-Ahora si podemos ver miltihilo no como la cagada que tiene [python](/Programming/Python/README.md) todo esta sección se divide en dos partes, las [Gorutinas](#Gorutinas) y los [Canales]
+Ahora si podemos ver miltihilo no como la cagada que tiene [python](/Programming/Python/README.md) todo esta sección se divide en dos partes, las [Gorutinas](#Gorutinas) y los [Canales](#Canales) con estos elementos go maneja la concurrencia.
 
 ### Gorutinas
 
+Las gorutinas son funciones concurrentes
+
+
+
+
+
+### Canales
