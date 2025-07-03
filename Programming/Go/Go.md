@@ -87,3 +87,10 @@ t == t2
 ```
 
 Es bastante claro el ejemplo
+
+## Multi-threading
+
+ESTO SE VA A DESCONTROLARRRRR
+Ahora si podemos ver miltihilo no como la cagada que tiene [python](/Programming/Python/README.md) todo esta seccion se divide en dos partes, las [[#Gorutinas]] [[Linux/README|cosas de linux]] 
+
+### Gorutinas
