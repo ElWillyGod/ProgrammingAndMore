@@ -95,10 +95,9 @@ Ahora si podemos ver miltihilo no como la cagada que tiene [python](/Programming
 
 ### Gorutinas
 
-Las gorutinas son funciones concurrentes
-
-
+Las gorutinas son funciones concurrentes que son gestionadas por el entorno de ejecucion de go, no por el sistema operativo estas gorutinas con ejecutadas mediante un mondelo M:N 
 
 
 
 ### Canales
+
