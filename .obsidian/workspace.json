@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Go/README.md",
+                "file": "Programming/Go/Go.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Go"
             }
           }
         ]
@@ -181,6 +181,7 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
+    "Programming/Go/README.md",
     "Programming/Go/Go.md",
     "Linux/README.md",
     "Programming/Python/Python_Avanzado.md",
@@ -189,7 +190,6 @@
     "Programming/Kotlin/README.md",
     "Programming/Kotlin/Kotlin.md",
     "Programming/README.md",
-    "Programming/Go/README.md",
     "Virtualización/Virtualización.md",
     "Virtualización/Docker.md",
     "SQL/Procedimientos_Almacenados.md",
