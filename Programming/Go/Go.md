@@ -91,6 +91,7 @@ Es bastante claro el ejemplo
 ## Multi-threading
 
 ESTO SE VA A DESCONTROLARRRRR
-Ahora si podemos ver miltihilo no como la cagada que tiene [python](/Programming/Python/README.md) todo esta seccion se divide en dos partes, las #Gorutinas 
+Ahora si podemos ver miltihilo no como la cagada que tiene [python](/Programming/Python/README.md) todo esta sección se divide en dos partes, las [Gorutinas](#Gorutinas) y los [Canales]
 
 ### Gorutinas
+
