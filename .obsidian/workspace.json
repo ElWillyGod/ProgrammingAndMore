@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fb07d73a83279c36",
@@ -114,12 +113,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Docker"
+              "title": "Enlaces salientes"
             }
           },
           {
@@ -143,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Proyecto.md",
+                "file": "Docker/Docker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Proyecto"
+              "title": "Esquema de Docker"
             }
           },
           {
@@ -167,13 +165,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 204.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Crear nuevo lienzo": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
@@ -182,51 +180,51 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "Programming/Go/README.md",
-    "README.md",
-    "Programming/Go/Go.md",
-    "Programming/README.md",
-    "Linux/README.md",
-    "Programming/Python/Python_Avanzado.md",
-    "Programming/Python/README.md",
-    "Programming/Kotlin/README.md",
-    "Programming/Kotlin/Kotlin.md",
-    "Virtualización/Virtualización.md",
-    "Virtualización/Docker.md",
-    "SQL/Procedimientos_Almacenados.md",
-    "SQL/PLSQL.md",
-    "Linux/Bash.md",
-    "Programming/Go",
     "Linux/Linux.md",
-    "Linux/Proyecto.md",
-    "Automatización de Backus.md",
+    "Programming/Go/README.md",
+    "Programming/Go/Go.md",
+    "Programming/Go",
+    "Linux/README.md",
+    "Linux/Bash.md",
+    "Virtualización/Virtualización.md",
     "Linux",
-    "Docker/Docker.md",
-    "Virtualización/README.md",
-    "Virtualización",
-    "SQL/README.md",
-    "Programming/Python",
-    "Programming/Kotlin",
-    "Programming",
-    "Cybersecurity/README.md",
+    "Virtualización/Docker.md",
+    "CDIVV/Números Complejos.md",
+    "CDIVV/Ecuaciones diferenciales.md",
+    "Programming/Python/Python_Avanzado.md",
     "CDIVV/Pasted image 20230804222333.png",
     "CDIVV/Pasted image 20230803005732.png",
     "CDIVV/Pasted image 20230802215957.png",
     "CDIVV/Pasted image 20230802185309.png",
     "CDIVV/Pasted image 20230802112156.png",
     "CDIVV/Pasted image 20230802110852.png",
-    "CDIVV/Números Complejos.md",
-    "CDIVV/Ecuaciones diferenciales.md",
     "CDIVV",
-    "Python/Python Avanzado.md",
-    "Kotlin/Kotlin.md",
-    "Git/Certificado GIT.md",
+    "README.md",
+    "Automatización de Backus.md",
+    "Virtualización/README.md",
+    "SQL/Procedimientos_Almacenados.md",
+    "SQL/README.md",
+    "SQL/PLSQL.md",
+    "Programming/README.md",
+    "Programming/Python/README.md",
+    "Programming/Kotlin/README.md",
+    "Programming/Kotlin/Kotlin.md",
+    "Git/README.md",
+    "Git/Certificado_GIT.md",
+    "Cybersecurity/Sqlmap.md",
+    "Cybersecurity/README.md",
+    "Cybersecurity/Nmap.md",
+    "Cybersecurity/Gobuster.md",
+    "ProgrammingAndMore/SQL",
+    "ProgrammingAndMore",
+    "Programing",
+    "Programming",
     "Sin título.canvas",
-    "Python",
     "Sin título 1.canvas",
+    "Programming/Python",
     "Sin título 2.canvas",
     "Git/Pasted image 20231127235238.png",
     "Cybersecurity",
-    "Kotlin"
+    "Programming/Kotlin"
   ]
 }
