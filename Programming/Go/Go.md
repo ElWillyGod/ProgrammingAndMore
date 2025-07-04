@@ -170,7 +170,7 @@ $ go run channels.go
 ping
 ```
 
-Se le pueden pasar mas de un valor al canal, asi:
+Se le pueden pasar mas de un valor al canal, así:
 
 ```Go
 package main
@@ -189,4 +189,4 @@ func main() {
 }
 ```
 
-Es relativamente simple, solo se tiene que especificar el valor en el momento que ese cera el canal `make(chan string, 2)` y asi el canal puede "amortiguar" n cantidad de valores.
+Es relativamente simple, solo se tiene que especificar el valor en el momento que ese cera el canal `make(chan string, 2)` y así el canal puede "amortiguar" n cantidad de valores.
