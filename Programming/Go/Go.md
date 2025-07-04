@@ -98,6 +98,48 @@ Ahora si podemos ver miltihilo no como la cagada que tiene [python](/Programming
 Las gorutinas son funciones concurrentes que son gestionadas por el entorno de ejecución de go, no por el sistema operativo, estas gorutinas con ejecutadas mediante un modelo de M:N donde M es el numero de gorutinas y N es es el numero de hilos del sistema.
 Para crear gorutinas se usa la palabra reservada `go` antes del nombre de la función.
 
+```Go
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func f(from string) {
+    for i := range 3 {
+        fmt.Println(from, ":", i)
+    }
+}
+
+func main() {
+
+    f("direct")
+
+    go f("goroutine")
+
+    go func(msg string) {
+        fmt.Println(msg)
+    }("going")
+
+    time.Sleep(time.Second)
+    fmt.Println("done")
+}
+```
+
+Salida:
+
+```bash
+$ go run goroutines.go
+direct : 0
+direct : 1
+direct : 2
+goroutine : 0
+going
+goroutine : 1
+goroutine : 2
+done
+```
 
 ### Canales
 
