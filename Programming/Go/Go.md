@@ -194,6 +194,6 @@ Es relativamente simple, solo se tiene que especificar el valor en el momento qu
 
 #### Canales para Sincronizar
 
-Los canales se pueden usar para sincronizar la ejecución de gorutinas, pero cuidado que si se están realizando múltiples ejecuciones de gorutinas conviene usar [Wait Group](#Wait-Group)
+Los canales se pueden usar para sincronizar la ejecución de gorutinas, pero cuidado que si se están realizando múltiples ejecuciones de gorutinas conviene usar [Wait Group](#Wait-Group) 
 
 ### Wait Group
