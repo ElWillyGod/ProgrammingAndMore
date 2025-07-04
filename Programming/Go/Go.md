@@ -86,7 +86,7 @@ t == t2
 2d:  [[0] [1 2] [2 3 4]]
 ```
 
-Es bastante claro el ejemplo
+Es bastante claro el ejemplo.
 
 ## Multi-threading
 
@@ -191,3 +191,9 @@ func main() {
 
 Es relativamente simple, solo se tiene que especificar el valor en el momento que ese cera el canal `make(chan string, 2)` y así el canal puede "amortiguar" n cantidad de valores.
 
+
+#### Canales para Sincronizar
+
+Los canales se pueden usar para sincronizar la ejecución de gorutinas, pero cuidado que si se están realizando múltiples ejecuciones de gorutinas conviene usar [Wait Group](#Wait-Group)
+
+### Wait Group

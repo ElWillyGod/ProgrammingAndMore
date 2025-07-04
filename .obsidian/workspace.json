@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fb07d73a83279c36",
@@ -167,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,14 +182,14 @@
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
     "Programming/Go/README.md",
+    "README.md",
     "Programming/Go/Go.md",
+    "Programming/README.md",
     "Linux/README.md",
     "Programming/Python/Python_Avanzado.md",
     "Programming/Python/README.md",
-    "README.md",
     "Programming/Kotlin/README.md",
     "Programming/Kotlin/Kotlin.md",
-    "Programming/README.md",
     "Virtualización/Virtualización.md",
     "Virtualización/Docker.md",
     "SQL/Procedimientos_Almacenados.md",
