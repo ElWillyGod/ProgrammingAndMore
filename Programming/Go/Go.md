@@ -101,4 +101,4 @@ Para crear gorutinas se usa la palabra reservada `go` antes del nombre de la fun
 
 ### Canales
 
-Estas cosas existen para solucionar el problema de **selección critica**, todos los pro
+Estas cosas existen para solucionar el problema de **selección critica**, todos los programas tienen una parte llamada **sección critica** en la que acceden a un recurso compartido, el problema esta en que si dos procesos modifican este recurso compartido al mismo tiempo, puede llevar a errores críticos, para gestionar este problema este problema existen varias soluciones, entre ellas los Canales (en Go).
