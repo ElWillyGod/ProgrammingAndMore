@@ -99,6 +99,6 @@ Las gorutinas son funciones concurrentes que son gestionadas por el entorno de e
 Para crear gorutinas se usa la palabra reservada `go` antes del nombre de la función.
 
 
-
 ### Canales
 
+Estas cosas existen para solucionar el problema de **selección critica**, todos los pro
