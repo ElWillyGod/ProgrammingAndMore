@@ -194,6 +194,37 @@ Es relativamente simple, solo se tiene que especificar el valor en el momento qu
 
 #### Canales para Sincronizar
 
-Los canales se pueden usar para sincronizar la ejecución de gorutinas, pero cuidado que si se están realizando múltiples ejecuciones conviene usar [Wait Group](#Wait-Group),
+Los canales se pueden usar para sincronizar la ejecución de gorutinas, pero cuidado que si se están realizando múltiples ejecuciones conviene usar [Wait Group](#Wait-Group).
+Aca un ejemplo de como seria la sincronizacion con canales:
+
+```Go
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func worker(done chan bool) {
+    fmt.Print("working...")
+    time.Sleep(time.Second)
+    fmt.Println("done")
+
+    done <- true
+}
+
+func main() {
+
+    done := make(chan bool, 1)
+    go worker(done)
+
+	fmt.Print("main ejec...")
+    <-done
+    
+	fmt.Print("exit...")
+}
+```
+
+Lo que hace es crear el canal con el bufer en el main lo que hace que la gorutina se ejecute y pueda enviar true al canal si el main aun no lo lee, lo que permite continuar la ejecución del programa principal, hasta que es bloqueado por `<-done` que se queda esperando la señal  del worker para poder terminar.
 
 ### Wait Group
