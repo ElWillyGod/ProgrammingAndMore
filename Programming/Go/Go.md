@@ -190,3 +190,4 @@ func main() {
 ```
 
 Es relativamente simple, solo se tiene que especificar el valor en el momento que ese cera el canal `make(chan string, 2)` y así el canal puede "amortiguar" n cantidad de valores.
+
