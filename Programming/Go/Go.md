@@ -227,5 +227,31 @@ func main() {
 
 Lo que hace es crear el canal con el bufer en el main lo que hace que la gorutina se ejecute y pueda enviar true al canal si el main aun no lo lee, lo que permite continuar la ejecución del programa principal, hasta que es bloqueado por `<-done` que se queda esperando la señal  del worker para poder terminar.
 
+Los canales también se pueden usar para direccionar información entre ellos.
+
+```Go
+package main
+
+import "fmt"
+
+func ping(pings chan<- string, msg string) {
+    pings <- msg
+}
+
+func pong(pings <-chan string, pongs chan<- string) {
+    msg := <-pings
+    pongs <- msg
+}
+
+func main() {
+    pings := make(chan string, 1)
+    pongs := make(chan string, 1)
+    ping(pings, "passed message")
+    pong(pings, pongs)
+    fmt.Println(<-pongs)
+}
+```
+
+El mensaje va a pasar entre canales y termina en pongs.
 ### Wait Group
 
