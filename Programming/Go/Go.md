@@ -145,3 +145,48 @@ done
 
 Estas cosas existen para solucionar el problema de **selección critica**, todos los programas tienen una parte llamada **sección critica** en la que acceden a un recurso compartido, el problema esta en que si dos procesos modifican este recurso compartido al mismo tiempo, puede llevar a errores críticos, para gestionar este problema este problema existen varias soluciones, entre ellas los Canales (en Go).
 Los canales garantizan una comunicaron y sincronizacion segura entre gorutinas esto se logra mediante la espera en un canal hasta que un dato este disponible o un receptor este listo.
+La sintaxis es simple, se crea el nuevo canal con `make(chan val-type`  y se envian los valores por el canal usando `<-`.
+
+```Go
+package main
+
+import "fmt"
+
+func main() {
+
+    messages := make(chan string)
+
+    go func() { messages <- "ping" }()
+
+    msg := <-messages
+    fmt.Println(msg)
+}
+```
+
+Salida:
+
+```bash
+$ go run channels.go 
+ping
+```
+
+Se le pueden pasar mas de un valor al canal, asi:
+
+```Go
+package main
+
+import "fmt"
+
+func main() {
+
+    messages := make(chan string, 2)
+
+    messages <- "buffered"
+    messages <- "channel"
+
+    fmt.Println(<-messages)
+    fmt.Println(<-messages)
+}
+```
+
+Es relativamente simple, solo se tiene que especificar el valor en el momento que ese cera el canal `make(chan string, 2)` y asi el canal puede "amortiguar" n cantidad de valores.
