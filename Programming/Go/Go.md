@@ -91,12 +91,12 @@ Es bastante claro el ejemplo
 ## Multi-threading
 
 ESTO SE VA A DESCONTROLARRRRR
-Ahora si podemos ver miltihilo no como la cagada que tiene [python](/Programming/Python/README.md) todo esta sección se divide en dos partes, las [Gorutinas](#Gorutinas) y los [Canales](#Canales) con estos elementos go maneja la concurrencia.
+Ahora si podemos ver miltihilo no como la cagada que tiene [python](/Programming/Python/README.md) todo esta sección se divide en dos partes, las [Gorutinas](#Gorutinas) y las soluciones al problema de selección critica como los [Canales](#Canales)  y otros, con estos elementos go maneja la concurrencia y sus problemas.
 
 ### Gorutinas
 
 Las gorutinas son funciones concurrentes que son gestionadas por el entorno de ejecución de go, no por el sistema operativo, estas gorutinas con ejecutadas mediante un modelo de M:N donde M es el numero de gorutinas y N es es el numero de hilos del sistema.
-Para crear gorutinas se usa la palabra reservada `go` antes del nombre de la funcion.
+Para crear gorutinas se usa la palabra reservada `go` antes del nombre de la función.
 
 
 
