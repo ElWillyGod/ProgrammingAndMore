@@ -252,6 +252,6 @@ func main() {
 }
 ```
 
-El mensaje va a pasar entre canales y termina en pongs.
+El mensaje va a pasar entre canales y termina en `pongs`.
 ### Wait Group
 
