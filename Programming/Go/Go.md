@@ -255,4 +255,4 @@ func main() {
 El mensaje va a pasar entre canales y termina en `pongs`.
 ### Wait Group
 
-Esta es una forma de menjar un grupo de
+Esta es una forma de menjar un grupo de gorutinas
