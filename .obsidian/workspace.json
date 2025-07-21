@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/PLSQL.md",
+                "file": "SQL/Sin título.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PLSQL"
+              "title": "Sin título"
             }
           }
         ]
@@ -182,8 +182,10 @@
   },
   "active": "0d95e5b7aa4db61f",
   "lastOpenFiles": [
-    "SQL/Procedimientos_Almacenados.md",
+    "SQL/README.md",
+    "SQL/Sin título.md",
     "SQL/PLSQL.md",
+    "SQL/Procedimientos_Almacenados.md",
     "Programming/Go/Go.md",
     "Programming/Go/README.md",
     "README.md",
@@ -204,7 +206,6 @@
     "Docker/Docker.md",
     "Virtualización/README.md",
     "Virtualización",
-    "SQL/README.md",
     "Programming/Python",
     "Programming/Kotlin",
     "Programming",
@@ -220,7 +221,6 @@
     "CDIVV",
     "Python/Python Avanzado.md",
     "Kotlin/Kotlin.md",
-    "Git/Certificado GIT.md",
     "Sin título.canvas",
     "Python",
     "Sin título 1.canvas",
