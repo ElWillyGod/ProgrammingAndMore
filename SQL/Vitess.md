@@ -1,0 +1,1 @@
+Escalado horizontal para los servidores, es una herramienta que permite gestionar bases de datos distribuidas, esta fuertemente ligada a MySQL, tambien es muy buena para la realizacion de consultas decentralizadas
