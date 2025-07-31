@@ -14,7 +14,7 @@
 # Tareas **📝**
 
 - ¿Qué es una IP y qué es un puerto?
-- TCP y UDP: ¿qué son? ¿en qué casos se aplica cada uno? ¿ 
+- TCP y UDP: ¿qué son? ¿en qué casos se aplica cada uno? ¿ como se usan ?
 - Entender el protocolo ICMP y qué rol cumple.
 - HTTP/S: ¿qué es? ¿para qué sirve? ¿cómo se usa? ¿qué versiones hay y en qué se diferencian?
 - ¿Qué es REST y gRPC?
