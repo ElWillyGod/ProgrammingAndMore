@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "SQL/Vitess.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vitess"
+            }
+          },
+          {
+            "id": "2d7ea9243134d05d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Redes/Redes.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "Redes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Objetivo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,11 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Enlaces salientes de Docker"
             }
           },
           {
@@ -142,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker.md",
+                "file": "Linux/Proyecto.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Docker"
+              "title": "Esquema de Proyecto"
             }
           },
           {
@@ -166,65 +182,65 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:Crear nuevo lienzo": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d95e5b7aa4db61f",
+  "active": "2d7ea9243134d05d",
   "lastOpenFiles": [
-    "api",
-    "Programming/Go/Go.md",
     "SQL/Vitess.md",
     "Redes/Redes.md",
     "Redes",
-    "Linux/Linux.md",
-    "Programming/Go/README.md",
-    "Programming/Go",
-    "Linux/README.md",
-    "Linux/Bash.md",
+    "SQL/README.md",
+    "SQL/Procedimientos_Almacenados.md",
+    "SQL/PLSQL.md",
     "Virtualización/Virtualización.md",
-    "Linux",
+    "Virtualización/README.md",
     "Virtualización/Docker.md",
-    "CDIVV/Números Complejos.md",
-    "CDIVV/Ecuaciones diferenciales.md",
+    "SQL/BD.md",
+    "Programming/Go/Go.md",
+    "Programming/Go/README.md",
+    "README.md",
+    "Programming/README.md",
+    "Linux/README.md",
     "Programming/Python/Python_Avanzado.md",
+    "Programming/Python/README.md",
+    "Programming/Kotlin/README.md",
+    "Programming/Kotlin/Kotlin.md",
+    "Linux/Bash.md",
+    "Programming/Go",
+    "Linux/Linux.md",
+    "Linux/Proyecto.md",
+    "Automatización de Backus.md",
+    "Linux",
+    "Docker/Docker.md",
+    "Virtualización",
+    "Programming/Python",
+    "Programming/Kotlin",
+    "Programming",
+    "Cybersecurity/README.md",
     "CDIVV/Pasted image 20230804222333.png",
     "CDIVV/Pasted image 20230803005732.png",
     "CDIVV/Pasted image 20230802215957.png",
     "CDIVV/Pasted image 20230802185309.png",
     "CDIVV/Pasted image 20230802112156.png",
     "CDIVV/Pasted image 20230802110852.png",
+    "CDIVV/Números Complejos.md",
+    "CDIVV/Ecuaciones diferenciales.md",
     "CDIVV",
-    "README.md",
-    "Automatización de Backus.md",
-    "Virtualización/README.md",
-    "SQL/Procedimientos_Almacenados.md",
-    "SQL/README.md",
-    "SQL/PLSQL.md",
-    "Programming/README.md",
-    "Programming/Python/README.md",
-    "Programming/Kotlin/README.md",
-    "Programming/Kotlin/Kotlin.md",
-    "Git/README.md",
-    "Git/Certificado_GIT.md",
-    "Cybersecurity/Sqlmap.md",
-    "ProgrammingAndMore/SQL",
-    "ProgrammingAndMore",
-    "Programing",
-    "Programming",
     "Sin título.canvas",
+    "Python",
     "Sin título 1.canvas",
-    "Programming/Python",
     "Sin título 2.canvas",
     "Git/Pasted image 20231127235238.png",
     "Cybersecurity"
