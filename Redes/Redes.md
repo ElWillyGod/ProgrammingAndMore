@@ -13,7 +13,7 @@
 
 # Tareas **📝**
 
-- ¿Qué es una IP y qué es un puerto?
+- ~~¿Qué es una IP y qué es un puerto?~~
 - TCP y UDP: ¿qué son? ¿en qué casos se aplica cada uno? ¿ como se usan ?
 - Entender el protocolo ICMP y qué rol cumple.
 - HTTP/S: ¿qué es? ¿para qué sirve? ¿cómo se usa? ¿qué versiones hay y en qué se diferencian?
@@ -24,7 +24,7 @@
 - Estudiar tráfico que viaja sobre una red TLS en Wireshark, qué se ve y qué no se ve.
 - Herramientas: ping, ss, nc, ip (con addr, link, route), telnet, traceroute, tracepath, mtr, curl (opciones -v, -H, -X, -k), iptraf-ng.
 - Conceptos de Firewall y Proxy, diferencias, cuando se usa uno y el otro.
-- DNS y registries: ¿cómo funciona el DNS? ¿qué es una registry? Herramientas: dig (ver opción -X también), nslookup, whois.
+- ~~DNS y registries: ¿cómo funciona el DNS? ¿qué es una registry? Herramientas: dig (ver opción -X también), nslookup, whois~~
 - Troubleshooting: ¿cómo distinguir entre un problema de conexión y un problema de DNS?
 
 # Ejercicios **🏋️**
