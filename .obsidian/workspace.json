@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/Switching Mid-Transfer.md",
+                "file": "Redes/Sockets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Switching Mid-Transfer"
+              "title": "Sockets"
             }
           }
         ],
@@ -200,6 +200,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Crear nueva base": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -211,9 +212,9 @@
   },
   "active": "efdaf25ecc36e49c",
   "lastOpenFiles": [
+    "Redes/Switching Mid-Transfer.md",
     "Redes/Sockets.md",
     "Redes/Redes.md",
-    "Redes/Switching Mid-Transfer.md",
     "SQL/Vitess.md",
     "Redes",
     "SQL/README.md",
