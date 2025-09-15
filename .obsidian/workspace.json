@@ -41,28 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/Sockets.md",
+                "file": "Virtualización/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sockets"
-            }
-          },
-          {
-            "id": "fb7d4e395e2d7ebd",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "Registro de cambios 1.9.12"
+              "title": "Docker"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,10 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb7d4e395e2d7ebd",
+  "active": "efdaf25ecc36e49c",
   "lastOpenFiles": [
-    "Redes/Switching Mid-Transfer.md",
     "Redes/Sockets.md",
+    "Redes/Switching Mid-Transfer.md",
     "Redes/Redes.md",
     "SQL/Vitess.md",
     "Redes",
