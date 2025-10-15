@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Docker"
             }
+          },
+          {
+            "id": "c42fac7e78414400",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.9.14"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -210,7 +222,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "efdaf25ecc36e49c",
+  "active": "c42fac7e78414400",
   "lastOpenFiles": [
     "Redes/Sockets.md",
     "Redes/Switching Mid-Transfer.md",
