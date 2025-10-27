@@ -79,3 +79,50 @@ example_array["new_key"]="new_value"
 ```
 
 Y esta, esto esta copado, podemos hacer los alias asi, no se si las variables de entorno también se podrán
+
+
+#### Ejemplos de redireccionamiento de salidas
+
+Use el redireccionamiento para simplificar muchas tareas de administración de rutina. Revise la tabla anterior y analice los siguientes ejemplos.
+
+Guarde una marca de tiempo en el archivo `/tmp/saved-timestamp` para su posterior consulta.
+
+ **`date > /tmp/saved-timestamp`**
+
+Copie las últimas 100 líneas del archivo `/var/log/secure` a otro archivo `/tmp/last-100-log-secure`.
+
+ **`tail -n 100 /var/log/secure > /tmp/last-100-log-secure`**
+
+Concatenar los cuatro archivos `step` en un archivo en el directorio `tmp`.
+
+ **`cat step1.sh step2.log step3 step4 > /tmp/all-four-steps-in-one`**
+
+Enumere los nombres de archivo regulares y ocultos del directorio de inicio y guarde la salida en el archivo `my-file-names`.
+
+ **`ls -a > my-file-names`**
+
+Agregue una línea al archivo existente `/tmp/many-lines-of-information`.
+
+ **`echo "new line of information" >> /tmp/many-lines-of-information`**
+
+Los siguientes comandos generan mensajes de error porque algunos directorios del sistema son inaccesibles para usuarios normales. Observe cómo se redirigen los mensajes de error.
+
+Redirija los errores desde el comando `find` al archivo `/tmp/errors` cuando visualice la salida de un comando normal en el terminal.
+
+ **`find /etc -name passwd 2> /tmp/errors`**
+
+Guarde la salida de un proceso en el archivo `/tmp/output` y los mensajes de error en el archivo `/tmp/errors`.
+
+ **`find /etc -name passwd > /tmp/output 2> /tmp/errors`**
+
+Guarde la salida de un proceso en el archivo `/tmp/output` y descarte los mensajes de error.
+
+ **`find /etc -name passwd > /tmp/output 2> /dev/null`**
+
+Almacene la salida y los errores de forma conjunta en el archivo `/tmp/all-message-output`.
+
+ **`find /etc -name passwd &> /tmp/all-message-output`**
+
+Adjunte la salida y los errores al archivo `/tmp/all-message-output`.
+
+ **`find /etc -name passwd >> /tmp/all-message-output 2>&1`**
