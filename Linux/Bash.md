@@ -126,3 +126,15 @@ Almacene la salida y los errores de forma conjunta en el archivo `/tmp/all-messa
 Adjunte la salida y los errores al archivo `/tmp/all-message-output`.
 
  **`find /etc -name passwd >> /tmp/all-message-output 2>&1`**
+
+El siguiente ejemplo crea la conexión `enp9s0` del tipo `ethernet` para la interfaz de red `enp9s0` con una configuración de red IPv4 estática. Este comando configura la dirección IP `192.168.0.5` con un prefijo de red de `/24` y una puerta de enlace de red de `192.168.0.254`. El comando `nmcli connection add` falla si ya existe el nombre de conexión que intenta agregar.
+
+**`nmcli con add con-name enp9s0 type ethernet ifname enp9s0 \`**
+**`ipv4.method manual ipv4.addresses 192.168.0.5/24 ipv4.gateway 192.168.0.254`**
+
+El siguiente ejemplo crea la conexión `enp10s0` para el dispositivo `enp10s0` con direcciones IPv6 e IPv4 estáticas. Este comando configura la dirección IPv6 `2001:db8:0:1::c000:207` con el prefijo de red `/64` y la dirección `2001:db8:0:1::1` como puerta de enlace predeterminada. Este comando también configura la dirección IPv4 `192.0.2.7` con el prefijo de red `/24` y la dirección `192.0.2.1` como puerta de enlace predeterminada.
+
+**`nmcli con add con-name enp10s0 type ethernet ifname enp10s0 \`**
+**`ipv6.method manual ipv6.addresses '2001:db8:0:1::c000:207/64' ipv6.gateway \`**
+**`'2001:db8:0:1::1' ipv4.method manual ipv4.addresses '192.0.2.7/24' \`**
+**`ipv4.gateway '192.0.2.1'`**
