@@ -220,3 +220,73 @@ Realice las siguientes tareas en la máquina `serverb`:
 5. Configure el repositorio personalizado en `http://repo.example.com/rhel10.0/x86_64/rhcsa-practice/errata` e instale los paquetes `zsh` y `rht-system`.
     
     [student@serverb ~]$ **`sudo dnf config-manager --add-repo \ "http://repo.example.com/rhel10.0/x86_64/rhcsa-practice/errata" \ && sudo dnf config-manager --save \ --setopt=repo.example.com_rhel10.0_x86_64_rhcsa-practice_errata.gpgcheck=0 \ && sudo dnf install rht-system zsh -y`**
+
+
+## Trabajo de laboratorio: Gestión de redes
+
+Configurar y probar la conectividad de red.
+
+**Resultados**
+
+- Configurar los ajustes de red.
+    
+- Probar la conectividad de red.
+    
+- Establecer un nombre de host estático.
+    
+- Usar nombres de host canónicos que se puedan resolver localmente para conectarse a los sistemas.
+    
+
+### Nota
+
+El tiempo asignado para esta actividad es 10 minutos. Si necesita más tiempo para completar la tarea, debe volver a revisar el contenido del curso o practicar más.
+
+Si no restableció las máquinas `workstation` y ``server_`X`_`` al final del último capítulo, guarde el trabajo que desea mantener de ejercicios anteriores de esas máquinas y restablézcalas ahora.
+
+Con el usuario `student` en la máquina `workstation`, use el siguiente comando `lab` a fin de preparar su entorno para este ejercicio y garantizar que estén disponibles todos los recursos requeridos.
+
+student@workstation:~$ **`lab start rhcsa-rh124-review4`**
+
+### Importante
+
+Cuando ajusta la configuración de red, ejecutar un comando erróneo podría bloquear o suspender su sesión, y provocar que no pueda accederse a su sistema. Para evitar quedarse fuera del sistema, considere ajustar la configuración de red a través de la consola remota.
+
+**Especificaciones**
+
+Como administrador de sistemas, tiene la tarea de configurar los ajustes de red y el nombre de host en una máquina recién aprovisionada. Completar la configuración de red de un servidor es un requisito previo para delegar la máquina a los desarrolladores y usuarios de aplicaciones a fin de configurar y probar sus aplicaciones.
+
+Realice las siguientes tareas en la máquina `serverb`:
+
+- Busque el dispositivo de red no utilizado y utilícelo para crear y activar un perfil de conexión `static`. Configure el perfil `static` para establecer de manera estática la configuración de la red y no usar DHCP. Use la información de la siguiente tabla para otros ajustes de conexión:
+    
+    |Parámetro|Configuración|
+    |:--|:--|
+    |Dirección IPv4|172.25.250.111|
+    |Máscara de red|255.255.255.0|
+    |Puerta de enlace|172.25.250.254|
+    |Servidor DNS|172.25.250.254|
+    
+- Establezca el nombre de host en `server-review4.lab4.example.com`.
+    
+- Establezca `client-review4` como el nombre de host canónico para la dirección IPv4 `servera` `172.25.250.10`.
+    
+- Configure el perfil de conexión `static` con una dirección IPv4 adicional de `172.25.250.211` con una máscara de red de `255.255.255.0`. No elimine la dirección IPv4 existente. Garantice que la máquina `serverb` responda a todas las direcciones cuando la conexión `static` está activa.
+    
+
+1. Use la consola `serverb` para iniciar sesión con el usuario `student` en la máquina `serverb` y cambie al usuario `root`.
+    
+2. Use el comando `nmcli device status` para determinar el dispositivo Ethernet no utilizado.
+    
+    ### Importante
+    
+    Es posible que el nombre de la interfaz de red asociado con la dirección MAC proporcionada varíe según la plataforma del curso y el hardware en uso. Esta actividad supone que el nombre de la interfaz es `ens4`.
+    
+3. Cree un perfil de conexión `static`, active el nuevo perfil de conexión y configure un nuevo nombre de host.
+    
+    [root@serverb ~]# **`nmcli connection add con-name static type ethernet \ ifname ens4 ipv4.addresses '172.25.250.111/24' ipv4.gateway '172.25.250.254' \ ipv4.dns '172.25.250.254' ipv4.method manual \ && nmcli connection up static \ && hostnamectl hostname server-review4.lab4.example.com`**
+    
+4. Actualice el archivo `/etc/hosts` con el nombre del servidor `client-review4` para la dirección IPv4 `172.25.250.10`.
+    
+5. Modifique el perfil de conexión `static`, configure la dirección IPv4 `172.25.250.211/24` adicional y active la nueva dirección IP.
+    
+    [root@serverb ~]# **`nmcli connection modify static \ +ipv4.addresses '172.25.250.211/24' \ && nmcli connection up static`**
