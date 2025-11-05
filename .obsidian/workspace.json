@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bash.md",
+                "file": "Linux/RHSCA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bash"
+              "title": "RHSCA"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "c42fac7e78414400",
   "lastOpenFiles": [
-    "Linux/README.md",
     "Linux/Bash.md",
+    "Linux/RHSCA.md",
+    "Linux/README.md",
     "SQL/Procedimientos_Almacenados.md",
     "Redes/Switching Mid-Transfer.md",
     "Redes/Sockets.md",
@@ -215,7 +216,6 @@
     "Programming/Python",
     "Programming/Kotlin",
     "Programming",
-    "Cybersecurity/README.md",
     "CDIVV/Pasted image 20230804222333.png",
     "CDIVV/Pasted image 20230803005732.png",
     "CDIVV/Pasted image 20230802215957.png",
