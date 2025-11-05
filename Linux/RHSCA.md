@@ -290,3 +290,52 @@ Realice las siguientes tareas en la máquina `serverb`:
 5. Modifique el perfil de conexión `static`, configure la dirección IPv4 `172.25.250.211/24` adicional y active la nueva dirección IP.
     
     [root@serverb ~]# **`nmcli connection modify static \ +ipv4.addresses '172.25.250.211/24' \ && nmcli connection up static`**
+
+
+## Trabajo de laboratorio: Montaje de sistemas de archivos y búsqueda de archivos
+
+Montar un sistema de archivos y localizar archivos según diferentes criterios.
+
+**Resultados**
+
+- Montar un sistema de archivos existente.
+    
+- Buscar archivos por nombre de archivo, permisos y tamaño.
+    
+
+### Nota
+
+El tiempo asignado para esta actividad es 10 minutos. Si necesita más tiempo para completar la tarea, debe volver a revisar el contenido del curso o practicar más.
+
+Si no restableció las máquinas `workstation` y ``server_`X`_`` al final del último capítulo, guarde el trabajo que desea mantener de ejercicios anteriores de esas máquinas y restablézcalas ahora.
+
+Con el usuario `student` en la máquina `workstation`, use el siguiente comando `lab` a fin de preparar su entorno para este ejercicio y garantizar que estén disponibles todos los recursos requeridos.
+
+student@workstation:~$ **`lab start rhcsa-rh124-review5`**
+
+**Especificaciones**
+
+Como administrador de sistemas, tiene la tarea de configurar el almacenamiento necesario que solicitó el equipo de aplicaciones. Antes de permitir que el equipo de aplicaciones acceda al servidor, debe montar la partición de datos. Además, debe usar herramientas de línea de comandos para recopilar información de archivos a fin de comprobar que la máquina esté configurada y lista para la delegación.
+
+Realice las siguientes tareas en la máquina `serverb`:
+
+- Identifique el dispositivo de bloque desmontado y no utilizado que contiene un sistema de archivos XFS en la máquina `serverb`. Monte el dispositivo de bloque en el directorio `/review5-disk` .
+    
+- Buscar el archivo `review5-path`. Cree un archivo `/review5-disk/review5-path.txt` con una sola línea que consiste en la ruta absoluta al archivo `review5-path`.
+    
+- Busque todos los archivos con los permisos octales `640` y que sean propiedad del usuario `contractor1` y del grupo `contractor`. Guarde la lista de estos archivos en el archivo `/review5-disk/review5-perms.txt`.
+    
+- Busque todos los archivos con un tamaño de 100 bytes. Guarde las rutas absolutas a estos archivos en el archivo `/review5-disk/review5-size.txt`.
+    
+
+1. Inicie sesión en la máquina `serverb` con el usuario `student` y cambie al usuario `root`.
+    
+2. Use el comando `lsblk -fs` para identificar el dispositivo de bloque desmontado que contiene un sistema de archivos XFS.
+    
+3. Cree el directorio `/review5-disk` y monte el dispositivo de bloque `sdb1` en él.
+    
+    [root@serverb ~]# **`mkdir /review5-disk && \ mount /dev/sdb1 /review5-disk`**
+    
+4. Cree los archivos `/review5-disk/review5-path.txt`, `/review5-disk/review5-perms.txt` y `/review5-disk/review5-size.txt` con el contenido especificado.
+    
+    [root@serverb ~]# **`find / -iname review5-path 2>/dev/null \ > /review5-disk/review5-path.txt ; \ find / -user contractor1 \ -group contractor -perm 640 2>/dev/null \ > /review5-disk/review5-perms.txt ; \ find / -type f -size 100c 2>/dev/null \ > /review5-disk/review5-size.txt`**
