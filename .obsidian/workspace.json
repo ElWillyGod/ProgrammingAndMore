@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "RHSCA"
             }
+          },
+          {
+            "id": "2663587876d210eb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c42fac7e78414400",
+  "active": "2663587876d210eb",
   "lastOpenFiles": [
     "Linux/Bash.md",
     "Linux/RHSCA.md",
