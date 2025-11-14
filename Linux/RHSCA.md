@@ -339,3 +339,35 @@ Realice las siguientes tareas en la máquina `serverb`:
 4. Cree los archivos `/review5-disk/review5-path.txt`, `/review5-disk/review5-perms.txt` y `/review5-disk/review5-size.txt` con el contenido especificado.
     
     [root@serverb ~]# **`find / -iname review5-path 2>/dev/null \ > /review5-disk/review5-path.txt ; \ find / -user contractor1 \ -group contractor -perm 640 2>/dev/null \ > /review5-disk/review5-perms.txt ; \ find / -type f -size 100c 2>/dev/null \ > /review5-disk/review5-size.txt`**
+
+
+1. Cree el archivo `/etc/rsyslog.d/auth-errors.conf`. Configure el servicio `rsyslog` para escribir mensajes en el archivo `/var/log/auth-errors`. Use la instalación `authpriv` y la prioridad `alert` en el archivo de configuración.
+    
+    Ingrese el mensaje de registro `Logging test authpriv.alert` en el registro del sistema mediante la instalación `authpriv` con la prioridad `alert`. Use la contraseña `student`.
+    
+    1. Cambie al usuario `root`. Use la contraseña `student`.
+        
+        [student@serverb ~]$ **`sudo -i`**
+        [sudo] password for student: **`student`**
+        [root@serverb ~]#
+        
+    2. Cree el archivo `/etc/rsyslog.d/auth-errors.conf` con el comando `sudo`. Use la contraseña `student`.
+        
+        Especifique el archivo `/var/log/auth-errors` nuevo como destino para los mensajes de autenticación y seguridad. El archivo debe aparecer de la siguiente manera:
+        
+        authpriv.alert /var/log/auth-errors
+        
+    3. Reinicie el servicio `rsyslog` para que se apliquen los cambios del archivo de configuración.
+        
+        [root@serverb ~]# **`systemctl restart rsyslog`**
+        
+    4. Use el comando `logger -p` para escribir el mensaje `Logging test authpriv.alert` en el archivo `/var/log/auth-errors`. Use la instalación `authpriv` con la prioridad `alert`.
+        
+        [root@serverb ~]# **`logger -p authpriv.alert "Logging test authpriv.alert"`**
+        
+    5. Verifique que el archivo `/var/log/auth-errors` contenga una entrada de registro con el mensaje que especificó previamente.
+        
+        [root@serverb ~]# **`tail /var/log/auth-errors`**
+        Jun  9 11:53:41 serverb student[4058]: `Logging test authpriv.alert`
+        
+    
