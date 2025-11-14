@@ -25,12 +25,14 @@
             "id": "2663587876d210eb",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.3"
+                "file": "Redes/Sockets.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Registro de cambios 1.10.3"
+              "icon": "lucide-file",
+              "title": "Sockets"
             }
           }
         ],
