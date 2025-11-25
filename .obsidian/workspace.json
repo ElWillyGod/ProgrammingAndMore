@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Sin título.md",
+                "file": "Linux/Gestión de archivos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sin título"
+              "title": "Gestión de archivos"
+            }
+          },
+          {
+            "id": "331a8834d03a3d64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Lab de LVM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lab de LVM"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -210,11 +224,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63d1596049ad175f",
+  "active": "e32cfe5ef3ea5fbd",
   "lastOpenFiles": [
+    "Linux/Gestión de archivos.md",
+    "Linux/Lab de LVM.md",
     "Linux/Trabajo de RHCSA.md",
     "Linux/RHCSA.md",
-    "Linux/Sin título.md",
     "Redes/Sockets.md",
     "Linux/Bash.md",
     "Linux/README.md",
@@ -239,7 +254,6 @@
     "Programming/Kotlin/Kotlin.md",
     "Programming/Go",
     "Linux/Linux.md",
-    "Linux/Proyecto.md",
     "Linux",
     "Virtualización",
     "Programming/Python",
