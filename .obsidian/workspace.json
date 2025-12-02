@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Autofs.md",
+                "file": "Linux/RHCSA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Autofs"
+              "title": "RHCSA"
             }
           }
         ],
@@ -266,16 +266,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e32cfe5ef3ea5fbd",
+  "active": "185a0560c48dc950",
   "lastOpenFiles": [
-    "Linux/Recuperar el acceso de superusuario.md",
+    "Linux/Trabajo de RHCSA.md",
+    "Linux/RHCSA.md",
     "Linux/Autofs.md",
+    "Linux/Recuperar el acceso de superusuario.md",
     "Automatización de Backus.md",
     "Linux/Firewall.md",
     "Linux/Lab de LVM.md",
     "Linux/Gestión de archivos.md",
-    "Linux/Trabajo de RHCSA.md",
-    "Linux/RHCSA.md",
     "Redes/Sockets.md",
     "Linux/Bash.md",
     "Linux/README.md",
