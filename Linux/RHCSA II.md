@@ -167,5 +167,3 @@ Si falla el script de calificación, el sistema muestra una sugerencia sobre el 
     [root@serverb ~]# **`firewall-cmd --reload`**
     success
     
-
-[](https://rol.redhat.com/rol/app/#)
