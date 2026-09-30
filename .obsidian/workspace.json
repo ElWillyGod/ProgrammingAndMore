@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EX288 OpenShift Developer/EX288 OpenShift Developer.md",
+                "file": "EX200 RHCSA/EX200 RHCSA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EX288 OpenShift Developer"
+              "title": "EX200 RHCSA"
             }
           }
         ],
@@ -165,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.0546875
+    "width": 219.06640625
   },
   "right": {
     "id": "fb07d73a83279c36",
@@ -269,10 +269,13 @@
   },
   "active": "185a0560c48dc950",
   "lastOpenFiles": [
+    "EX200 RHCSA/Tips and tricks.md",
+    "EX200 RHCSA/EX200 RHCSA.md",
+    "EX280 OpenShift/EX280 OpenShift.md",
+    "EX288 OpenShift Developer/EX288 OpenShift Developer.md",
     "EX288 OpenShift Developer/Pizarron EX288.png",
     "EX288 OpenShift Developer/Image Stream, Authenticating OpenShift to Private Registries.md",
     "EX288 OpenShift Developer/Expose registry.md",
-    "EX288 OpenShift Developer/EX288 OpenShift Developer.md",
     "EX380 OpenShift Automation and Integration/EX380 OpenShift Automation and Integration.md",
     "Virtualización/Virtualización.md",
     "Virtualización/Docker.md",
@@ -280,7 +283,6 @@
     "README.md",
     "image.webp",
     "Automatización de Backus.md",
-    "EX280 OpenShift/EX280 OpenShift.md",
     "EX288 OpenShift Developer/EX288 OpenShift Developer.md.tmp.27393.2d24de3b6155",
     "EX288 OpenShift Developer/Image Stream, Authenticating OpenShift to Private Registries.md.tmp.27393.35250e8d0868",
     "EX288 OpenShift Developer/Expose registry.md.tmp.27393.ddd5dd2f6def",
@@ -296,9 +298,7 @@
     "EX316 OpenShift Virtualization/EX316 OpenShift Virtualization.md",
     "EX415 Security/EX415 Security.md",
     "EX294 RHCE/EX294 RHCE.md",
-    "EX200 RHCSA/EX200 RHCSA.md",
     "Linux/RHCSA.md",
-    "EX200 RHCSA/Tips and tricks.md",
     "Linux/EX200 RHCSA.md",
     "Linux/Tips and tricks.md",
     "Linux/RHCSA II.md",
