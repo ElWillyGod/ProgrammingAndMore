@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EX280 OpenShift/EX280 OpenShift.md",
+                "file": "Virtualización/Virtualización.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EX280 OpenShift"
+              "title": "Virtualización"
             }
           }
         ],
@@ -165,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 320.0546875
   },
   "right": {
     "id": "fb07d73a83279c36",
@@ -267,8 +267,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e83ecfe48a96732",
+  "active": "185a0560c48dc950",
   "lastOpenFiles": [
+    "Virtualización/Docker.md",
+    "Virtualización/README.md",
+    "README.md",
+    "image.webp",
+    "Automatización de Backus.md",
+    "EX280 OpenShift/EX280 OpenShift.md",
     "EX288 OpenShift Developer/EX288 OpenShift Developer.md",
     "EX288 OpenShift Developer/EX288 OpenShift Developer.md.tmp.27393.2d24de3b6155",
     "EX288 OpenShift Developer/Image Stream, Authenticating OpenShift to Private Registries.md",
@@ -277,7 +283,6 @@
     "EX288 OpenShift Developer/Expose registry.md.tmp.27393.ddd5dd2f6def",
     "EX288 OpenShift Developer/Pizarron EX288.png",
     "EX288 OpenShift Developer",
-    "image.webp",
     "Sin confirmar 309161.crdownload",
     "EX380 OpenShift Automation and Integration/EX380 OpenShift Automation and Integration.md",
     "EX380 OpenShift Automation and Integration/EX380 OpenShift Automation and Integration.md.tmp.27393.d23cc9ad1730",
@@ -291,7 +296,6 @@
     "EX415 Security/EX415 Security.md",
     "EX294 RHCE/EX294 RHCE.md",
     "EX200 RHCSA/EX200 RHCSA.md",
-    "EX280 OpenShift/EX280 OpenShift.md",
     "Linux/RHCSA.md",
     "EX200 RHCSA/Tips and tricks.md",
     "Linux/EX200 RHCSA.md",
@@ -300,13 +304,9 @@
     "Linux/Trabajo de RHCSA.md",
     "Linux/Autofs.md",
     "Linux/Recuperar el acceso de superusuario.md",
-    "Automatización de Backus.md",
     "Linux/Firewall.md",
     "Linux/Lab de LVM.md",
     "Linux/Gestión de archivos.md",
-    "Redes/Sockets.md",
-    "Linux/Bash.md",
-    "Linux/README.md",
     "CDIVV/Pasted image 20230804222333.png",
     "CDIVV/Pasted image 20230803005732.png",
     "CDIVV/Pasted image 20230802215957.png",
