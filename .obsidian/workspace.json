@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EX200 RHCSA/EX200 RHCSA.md",
+                "file": "EX280 OpenShift/EX280 OpenShift.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EX200 RHCSA"
+              "title": "EX280 OpenShift"
             }
           }
         ],
@@ -269,8 +269,8 @@
   },
   "active": "185a0560c48dc950",
   "lastOpenFiles": [
-    "EX200 RHCSA/Tips and tricks.md",
     "EX200 RHCSA/EX200 RHCSA.md",
+    "EX200 RHCSA/Tips and tricks.md",
     "EX280 OpenShift/EX280 OpenShift.md",
     "EX288 OpenShift Developer/EX288 OpenShift Developer.md",
     "EX288 OpenShift Developer/Pizarron EX288.png",
