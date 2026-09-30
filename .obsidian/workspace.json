@@ -95,12 +95,14 @@
             "id": "185a0560c48dc950",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "EX288 OpenShift Developer/Pizarron EX288.png"
+                "file": "EX288 OpenShift Developer/EX288 OpenShift Developer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pizarron EX288"
+              "icon": "lucide-file",
+              "title": "EX288 OpenShift Developer"
             }
           }
         ],
@@ -267,8 +269,8 @@
   },
   "active": "185a0560c48dc950",
   "lastOpenFiles": [
-    "EX288 OpenShift Developer/Image Stream, Authenticating OpenShift to Private Registries.md",
     "EX288 OpenShift Developer/Pizarron EX288.png",
+    "EX288 OpenShift Developer/Image Stream, Authenticating OpenShift to Private Registries.md",
     "EX288 OpenShift Developer/Expose registry.md",
     "EX288 OpenShift Developer/EX288 OpenShift Developer.md",
     "EX380 OpenShift Automation and Integration/EX380 OpenShift Automation and Integration.md",
