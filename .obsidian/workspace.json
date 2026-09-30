@@ -95,14 +95,12 @@
             "id": "185a0560c48dc950",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Virtualización/Virtualización.md",
-                "mode": "source",
-                "source": false
+                "file": "EX288 OpenShift Developer/Pizarron EX288.png"
               },
-              "icon": "lucide-file",
-              "title": "Virtualización"
+              "icon": "lucide-image",
+              "title": "Pizarron EX288"
             }
           }
         ],
@@ -269,22 +267,23 @@
   },
   "active": "185a0560c48dc950",
   "lastOpenFiles": [
+    "EX288 OpenShift Developer/Image Stream, Authenticating OpenShift to Private Registries.md",
+    "EX288 OpenShift Developer/Pizarron EX288.png",
+    "EX288 OpenShift Developer/Expose registry.md",
+    "EX288 OpenShift Developer/EX288 OpenShift Developer.md",
+    "EX380 OpenShift Automation and Integration/EX380 OpenShift Automation and Integration.md",
+    "Virtualización/Virtualización.md",
     "Virtualización/Docker.md",
     "Virtualización/README.md",
     "README.md",
     "image.webp",
     "Automatización de Backus.md",
     "EX280 OpenShift/EX280 OpenShift.md",
-    "EX288 OpenShift Developer/EX288 OpenShift Developer.md",
     "EX288 OpenShift Developer/EX288 OpenShift Developer.md.tmp.27393.2d24de3b6155",
-    "EX288 OpenShift Developer/Image Stream, Authenticating OpenShift to Private Registries.md",
     "EX288 OpenShift Developer/Image Stream, Authenticating OpenShift to Private Registries.md.tmp.27393.35250e8d0868",
-    "EX288 OpenShift Developer/Expose registry.md",
     "EX288 OpenShift Developer/Expose registry.md.tmp.27393.ddd5dd2f6def",
-    "EX288 OpenShift Developer/Pizarron EX288.png",
     "EX288 OpenShift Developer",
     "Sin confirmar 309161.crdownload",
-    "EX380 OpenShift Automation and Integration/EX380 OpenShift Automation and Integration.md",
     "EX380 OpenShift Automation and Integration/EX380 OpenShift Automation and Integration.md.tmp.27393.d23cc9ad1730",
     "EX403 Satellite/EX403 Satellite.md",
     "EX403 Satellite/EX403 Satellite.md.tmp.27393.4f55ab9f5939",
@@ -305,8 +304,6 @@
     "Linux/Autofs.md",
     "Linux/Recuperar el acceso de superusuario.md",
     "Linux/Firewall.md",
-    "Linux/Lab de LVM.md",
-    "Linux/Gestión de archivos.md",
     "CDIVV/Pasted image 20230804222333.png",
     "CDIVV/Pasted image 20230803005732.png",
     "CDIVV/Pasted image 20230802215957.png",
