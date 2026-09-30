@@ -308,6 +308,17 @@ Crear snapshot de la VM
 > En YAML de la VM configurar el LivenessProbe. Se te brinda un ejemplo de la estructura a añadir.
 >
 > Esto se agrega en `.spec.template.spec.livenessProbe`
+>
+> Estructura mínima por si no te dan el ejemplo:
+> ```yaml
+> livenessProbe:
+>   initialDelaySeconds: 120
+>   periodSeconds: 20
+>   tcpSocket:
+>     port: 80
+>   timeoutSeconds: 10
+>   failureThreshold: 3
+> ```
 
 > [!check]- 🧪 Validación
 > Se puede bajar el servicio en la VM para validar que el comportamiento del chequeo sea el esperado.
